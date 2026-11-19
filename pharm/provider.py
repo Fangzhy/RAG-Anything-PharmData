@@ -30,7 +30,8 @@ async def completion(prompt, system_prompt=None, history_messages=None, **kwargs
         async with httpx.AsyncClient(timeout=45) as client:
             response = await client.post("https://openrouter.ai/api/v1/chat/completions",
                 headers={"Authorization": "Bearer "+key},
-                json={"model":model,"messages":messages,"temperature":0,"max_tokens":1000})
+                json={"model":model,"messages":messages,"temperature":0,"max_tokens":4096,
+                      "reasoning":{"effort":"low","exclude":True},"response_format":{"type":"json_object"}})
     except httpx.HTTPError:
         raise ProviderUnavailable("OpenRouter could not be reached. Retrieved evidence is available.") from None
     if response.status_code != 200:
