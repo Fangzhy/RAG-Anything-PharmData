@@ -1,0 +1,12 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE batches (batch TEXT PRIMARY KEY);
+CREATE TABLE samples (sample TEXT PRIMARY KEY, batch TEXT NOT NULL REFERENCES batches);
+CREATE TABLE runs (run TEXT PRIMARY KEY, batch TEXT NOT NULL REFERENCES batches);
+CREATE TABLE criteria (method TEXT PRIMARY KEY, test TEXT, time_min INTEGER, unit TEXT, lower_bound REAL);
+CREATE TABLE audit (locator TEXT PRIMARY KEY, feed TEXT, id TEXT, status TEXT, original TEXT, final TEXT, initial_errors TEXT, final_errors TEXT, corrections TEXT);
+CREATE TABLE eln (id TEXT PRIMARY KEY, batch TEXT REFERENCES batches, run TEXT REFERENCES runs, timestamp TEXT, operator TEXT, note TEXT, locator TEXT REFERENCES audit);
+CREATE TABLE lims (id TEXT PRIMARY KEY, batch TEXT REFERENCES batches, sample TEXT REFERENCES samples, test TEXT, value REAL NOT NULL, unit TEXT, method TEXT REFERENCES criteria, time_min INTEGER, timestamp TEXT, locator TEXT REFERENCES audit);
+CREATE TABLE sensor (id TEXT PRIMARY KEY, batch TEXT REFERENCES batches, run TEXT REFERENCES runs, channel TEXT, value REAL NOT NULL, unit TEXT, timestamp TEXT, equipment TEXT, locator TEXT REFERENCES audit);
+CREATE TABLE assets (id TEXT PRIMARY KEY, batch TEXT REFERENCES batches, sample TEXT REFERENCES samples, path TEXT, kind TEXT);
+CREATE INDEX result_sample ON lims(sample, method);
+CREATE INDEX sensor_interval ON sensor(run,channel,timestamp);

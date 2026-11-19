@@ -1,0 +1,1924 @@
+{
+  "nodes": {
+    "B-001": "Batch",
+    "S-001-A": "Sample",
+    "IMG-S-001-A": "InspectionImage",
+    "S-001-B": "Sample",
+    "IMG-S-001-B": "InspectionImage",
+    "B-002": "Batch",
+    "S-002-A": "Sample",
+    "IMG-S-002-A": "InspectionImage",
+    "S-002-B": "Sample",
+    "IMG-S-002-B": "InspectionImage",
+    "B-003": "Batch",
+    "S-003-A": "Sample",
+    "IMG-S-003-A": "InspectionImage",
+    "S-003-B": "Sample",
+    "IMG-S-003-B": "InspectionImage",
+    "B-004": "Batch",
+    "S-004-A": "Sample",
+    "IMG-S-004-A": "InspectionImage",
+    "S-004-B": "Sample",
+    "IMG-S-004-B": "InspectionImage",
+    "B-005": "Batch",
+    "S-005-A": "Sample",
+    "IMG-S-005-A": "InspectionImage",
+    "S-005-B": "Sample",
+    "IMG-S-005-B": "InspectionImage",
+    "B-006": "Batch",
+    "S-006-A": "Sample",
+    "IMG-S-006-A": "InspectionImage",
+    "S-006-B": "Sample",
+    "IMG-S-006-B": "InspectionImage",
+    "B-007": "Batch",
+    "S-007-A": "Sample",
+    "IMG-S-007-A": "InspectionImage",
+    "S-007-B": "Sample",
+    "IMG-S-007-B": "InspectionImage",
+    "B-008": "Batch",
+    "S-008-A": "Sample",
+    "IMG-S-008-A": "InspectionImage",
+    "S-008-B": "Sample",
+    "IMG-S-008-B": "InspectionImage",
+    "B-009": "Batch",
+    "S-009-A": "Sample",
+    "IMG-S-009-A": "InspectionImage",
+    "S-009-B": "Sample",
+    "IMG-S-009-B": "InspectionImage",
+    "B-010": "Batch",
+    "S-010-A": "Sample",
+    "IMG-S-010-A": "InspectionImage",
+    "S-010-B": "Sample",
+    "IMG-S-010-B": "InspectionImage",
+    "B-011": "Batch",
+    "S-011-A": "Sample",
+    "IMG-S-011-A": "InspectionImage",
+    "S-011-B": "Sample",
+    "IMG-S-011-B": "InspectionImage",
+    "B-012": "Batch",
+    "S-012-A": "Sample",
+    "IMG-S-012-A": "InspectionImage",
+    "S-012-B": "Sample",
+    "IMG-S-012-B": "InspectionImage",
+    "B-013": "Batch",
+    "S-013-A": "Sample",
+    "IMG-S-013-A": "InspectionImage",
+    "S-013-B": "Sample",
+    "IMG-S-013-B": "InspectionImage",
+    "B-014": "Batch",
+    "S-014-A": "Sample",
+    "IMG-S-014-A": "InspectionImage",
+    "S-014-B": "Sample",
+    "IMG-S-014-B": "InspectionImage",
+    "B-015": "Batch",
+    "S-015-A": "Sample",
+    "IMG-S-015-A": "InspectionImage",
+    "S-015-B": "Sample",
+    "IMG-S-015-B": "InspectionImage",
+    "B-016": "Batch",
+    "S-016-A": "Sample",
+    "IMG-S-016-A": "InspectionImage",
+    "S-016-B": "Sample",
+    "IMG-S-016-B": "InspectionImage",
+    "B-017": "Batch",
+    "S-017-A": "Sample",
+    "IMG-S-017-A": "InspectionImage",
+    "S-017-B": "Sample",
+    "IMG-S-017-B": "InspectionImage",
+    "B-018": "Batch",
+    "S-018-A": "Sample",
+    "IMG-S-018-A": "InspectionImage",
+    "S-018-B": "Sample",
+    "IMG-S-018-B": "InspectionImage",
+    "B-019": "Batch",
+    "S-019-A": "Sample",
+    "IMG-S-019-A": "InspectionImage",
+    "S-019-B": "Sample",
+    "IMG-S-019-B": "InspectionImage",
+    "B-020": "Batch",
+    "S-020-A": "Sample",
+    "IMG-S-020-A": "InspectionImage",
+    "S-020-B": "Sample",
+    "IMG-S-020-B": "InspectionImage",
+    "S-001-A-A01": "TestResult",
+    "S-001-A-D30": "TestResult",
+    "S-001-B-A01": "TestResult",
+    "S-001-B-D30": "TestResult",
+    "S-002-A-A01": "TestResult",
+    "S-002-A-D30": "TestResult",
+    "S-002-B-A01": "TestResult",
+    "S-002-B-D30": "TestResult",
+    "S-003-A-A01": "TestResult",
+    "S-003-A-D30": "TestResult",
+    "S-003-B-A01": "TestResult",
+    "S-003-B-D30": "TestResult",
+    "S-004-A-A01": "TestResult",
+    "S-004-A-D30": "TestResult",
+    "S-004-B-A01": "TestResult",
+    "S-004-B-D30": "TestResult",
+    "S-005-A-A01": "TestResult",
+    "S-005-A-D30": "TestResult",
+    "S-005-B-A01": "TestResult",
+    "S-005-B-D30": "TestResult",
+    "S-006-A-A01": "TestResult",
+    "S-006-A-D30": "TestResult",
+    "S-006-B-A01": "TestResult",
+    "S-006-B-D30": "TestResult",
+    "S-007-A-A01": "TestResult",
+    "S-007-A-D30": "TestResult",
+    "S-007-B-A01": "TestResult",
+    "S-007-B-D30": "TestResult",
+    "S-008-A-A01": "TestResult",
+    "S-008-A-D30": "TestResult",
+    "S-008-B-A01": "TestResult",
+    "S-008-B-D30": "TestResult",
+    "S-009-A-A01": "TestResult",
+    "S-009-A-D30": "TestResult",
+    "S-009-B-A01": "TestResult",
+    "S-009-B-D30": "TestResult",
+    "S-010-A-A01": "TestResult",
+    "S-010-A-D30": "TestResult",
+    "S-010-B-A01": "TestResult",
+    "S-010-B-D30": "TestResult",
+    "S-011-A-A01": "TestResult",
+    "S-011-B-A01": "TestResult",
+    "S-011-B-D30": "TestResult",
+    "S-012-A-A01": "TestResult",
+    "S-012-A-D30": "TestResult",
+    "S-012-B-A01": "TestResult",
+    "S-012-B-D30": "TestResult",
+    "S-013-A-A01": "TestResult",
+    "S-013-A-D30": "TestResult",
+    "S-013-B-A01": "TestResult",
+    "S-014-A-A01": "TestResult",
+    "S-014-A-D30": "TestResult",
+    "S-014-B-A01": "TestResult",
+    "S-014-B-D30": "TestResult",
+    "S-015-A-A01": "TestResult",
+    "S-015-A-D30": "TestResult",
+    "S-015-B-A01": "TestResult",
+    "S-015-B-D30": "TestResult",
+    "S-016-A-A01": "TestResult",
+    "S-016-A-D30": "TestResult",
+    "S-016-B-A01": "TestResult",
+    "S-016-B-D30": "TestResult",
+    "S-017-A-A01": "TestResult",
+    "S-017-A-D30": "TestResult",
+    "S-017-B-A01": "TestResult",
+    "S-017-B-D30": "TestResult",
+    "S-018-A-A01": "TestResult",
+    "S-018-B-A01": "TestResult",
+    "S-018-B-D30": "TestResult",
+    "S-019-A-A01": "TestResult",
+    "S-019-A-D30": "TestResult",
+    "S-019-B-A01": "TestResult",
+    "S-019-B-D30": "TestResult",
+    "S-020-A-A01": "TestResult",
+    "S-020-A-D30": "TestResult",
+    "S-020-B-A01": "TestResult",
+    "RUN-001": "ProcessRun",
+    "RUN-002": "ProcessRun",
+    "RUN-004": "ProcessRun",
+    "RUN-005": "ProcessRun",
+    "RUN-006": "ProcessRun",
+    "RUN-007": "ProcessRun",
+    "RUN-008": "ProcessRun",
+    "RUN-009": "ProcessRun",
+    "RUN-010": "ProcessRun",
+    "RUN-011": "ProcessRun",
+    "RUN-012": "ProcessRun",
+    "RUN-013": "ProcessRun",
+    "RUN-014": "ProcessRun",
+    "RUN-015": "ProcessRun",
+    "RUN-016": "ProcessRun",
+    "RUN-017": "ProcessRun",
+    "RUN-018": "ProcessRun",
+    "RUN-019": "ProcessRun",
+    "RUN-020": "ProcessRun",
+    "DOC-B-001": "Document",
+    "OBS-C-003": "Observation",
+    "DOC-B-002": "Document",
+    "OBS-C-008": "Observation",
+    "DOC-B-003": "Document",
+    "OBS-C-014": "Observation",
+    "DOC-B-004": "Document",
+    "OBS-C-019": "Observation",
+    "DOC-B-005": "Document",
+    "OBS-C-025": "Observation",
+    "DOC-B-006": "Document",
+    "OBS-C-030": "Observation"
+  },
+  "edges": [
+    {
+      "id": "G-0001",
+      "src": "B-001",
+      "predicate": "hasSample",
+      "tgt": "S-001-A",
+      "locator": "images/S-001-A.png",
+      "batch": "B-001",
+      "text": "S-001-A belongs to B-001."
+    },
+    {
+      "id": "G-0002",
+      "src": "IMG-S-001-A",
+      "predicate": "depicts",
+      "tgt": "S-001-A",
+      "locator": "images/S-001-A.png",
+      "batch": "B-001",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "G-0003",
+      "src": "B-001",
+      "predicate": "hasSample",
+      "tgt": "S-001-B",
+      "locator": "images/S-001-B.png",
+      "batch": "B-001",
+      "text": "S-001-B belongs to B-001."
+    },
+    {
+      "id": "G-0004",
+      "src": "IMG-S-001-B",
+      "predicate": "depicts",
+      "tgt": "S-001-B",
+      "locator": "images/S-001-B.png",
+      "batch": "B-001",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "G-0005",
+      "src": "B-002",
+      "predicate": "hasSample",
+      "tgt": "S-002-A",
+      "locator": "images/S-002-A.png",
+      "batch": "B-002",
+      "text": "S-002-A belongs to B-002."
+    },
+    {
+      "id": "G-0006",
+      "src": "IMG-S-002-A",
+      "predicate": "depicts",
+      "tgt": "S-002-A",
+      "locator": "images/S-002-A.png",
+      "batch": "B-002",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "G-0007",
+      "src": "B-002",
+      "predicate": "hasSample",
+      "tgt": "S-002-B",
+      "locator": "images/S-002-B.png",
+      "batch": "B-002",
+      "text": "S-002-B belongs to B-002."
+    },
+    {
+      "id": "G-0008",
+      "src": "IMG-S-002-B",
+      "predicate": "depicts",
+      "tgt": "S-002-B",
+      "locator": "images/S-002-B.png",
+      "batch": "B-002",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "G-0009",
+      "src": "B-003",
+      "predicate": "hasSample",
+      "tgt": "S-003-A",
+      "locator": "images/S-003-A.png",
+      "batch": "B-003",
+      "text": "S-003-A belongs to B-003."
+    },
+    {
+      "id": "G-0010",
+      "src": "IMG-S-003-A",
+      "predicate": "depicts",
+      "tgt": "S-003-A",
+      "locator": "images/S-003-A.png",
+      "batch": "B-003",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0011",
+      "src": "B-003",
+      "predicate": "hasSample",
+      "tgt": "S-003-B",
+      "locator": "images/S-003-B.png",
+      "batch": "B-003",
+      "text": "S-003-B belongs to B-003."
+    },
+    {
+      "id": "G-0012",
+      "src": "IMG-S-003-B",
+      "predicate": "depicts",
+      "tgt": "S-003-B",
+      "locator": "images/S-003-B.png",
+      "batch": "B-003",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0013",
+      "src": "B-004",
+      "predicate": "hasSample",
+      "tgt": "S-004-A",
+      "locator": "images/S-004-A.png",
+      "batch": "B-004",
+      "text": "S-004-A belongs to B-004."
+    },
+    {
+      "id": "G-0014",
+      "src": "IMG-S-004-A",
+      "predicate": "depicts",
+      "tgt": "S-004-A",
+      "locator": "images/S-004-A.png",
+      "batch": "B-004",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0015",
+      "src": "B-004",
+      "predicate": "hasSample",
+      "tgt": "S-004-B",
+      "locator": "images/S-004-B.png",
+      "batch": "B-004",
+      "text": "S-004-B belongs to B-004."
+    },
+    {
+      "id": "G-0016",
+      "src": "IMG-S-004-B",
+      "predicate": "depicts",
+      "tgt": "S-004-B",
+      "locator": "images/S-004-B.png",
+      "batch": "B-004",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0017",
+      "src": "B-005",
+      "predicate": "hasSample",
+      "tgt": "S-005-A",
+      "locator": "images/S-005-A.png",
+      "batch": "B-005",
+      "text": "S-005-A belongs to B-005."
+    },
+    {
+      "id": "G-0018",
+      "src": "IMG-S-005-A",
+      "predicate": "depicts",
+      "tgt": "S-005-A",
+      "locator": "images/S-005-A.png",
+      "batch": "B-005",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0019",
+      "src": "B-005",
+      "predicate": "hasSample",
+      "tgt": "S-005-B",
+      "locator": "images/S-005-B.png",
+      "batch": "B-005",
+      "text": "S-005-B belongs to B-005."
+    },
+    {
+      "id": "G-0020",
+      "src": "IMG-S-005-B",
+      "predicate": "depicts",
+      "tgt": "S-005-B",
+      "locator": "images/S-005-B.png",
+      "batch": "B-005",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0021",
+      "src": "B-006",
+      "predicate": "hasSample",
+      "tgt": "S-006-A",
+      "locator": "images/S-006-A.png",
+      "batch": "B-006",
+      "text": "S-006-A belongs to B-006."
+    },
+    {
+      "id": "G-0022",
+      "src": "IMG-S-006-A",
+      "predicate": "depicts",
+      "tgt": "S-006-A",
+      "locator": "images/S-006-A.png",
+      "batch": "B-006",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0023",
+      "src": "B-006",
+      "predicate": "hasSample",
+      "tgt": "S-006-B",
+      "locator": "images/S-006-B.png",
+      "batch": "B-006",
+      "text": "S-006-B belongs to B-006."
+    },
+    {
+      "id": "G-0024",
+      "src": "IMG-S-006-B",
+      "predicate": "depicts",
+      "tgt": "S-006-B",
+      "locator": "images/S-006-B.png",
+      "batch": "B-006",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0025",
+      "src": "B-007",
+      "predicate": "hasSample",
+      "tgt": "S-007-A",
+      "locator": "images/S-007-A.png",
+      "batch": "B-007",
+      "text": "S-007-A belongs to B-007."
+    },
+    {
+      "id": "G-0026",
+      "src": "IMG-S-007-A",
+      "predicate": "depicts",
+      "tgt": "S-007-A",
+      "locator": "images/S-007-A.png",
+      "batch": "B-007",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0027",
+      "src": "B-007",
+      "predicate": "hasSample",
+      "tgt": "S-007-B",
+      "locator": "images/S-007-B.png",
+      "batch": "B-007",
+      "text": "S-007-B belongs to B-007."
+    },
+    {
+      "id": "G-0028",
+      "src": "IMG-S-007-B",
+      "predicate": "depicts",
+      "tgt": "S-007-B",
+      "locator": "images/S-007-B.png",
+      "batch": "B-007",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0029",
+      "src": "B-008",
+      "predicate": "hasSample",
+      "tgt": "S-008-A",
+      "locator": "images/S-008-A.png",
+      "batch": "B-008",
+      "text": "S-008-A belongs to B-008."
+    },
+    {
+      "id": "G-0030",
+      "src": "IMG-S-008-A",
+      "predicate": "depicts",
+      "tgt": "S-008-A",
+      "locator": "images/S-008-A.png",
+      "batch": "B-008",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0031",
+      "src": "B-008",
+      "predicate": "hasSample",
+      "tgt": "S-008-B",
+      "locator": "images/S-008-B.png",
+      "batch": "B-008",
+      "text": "S-008-B belongs to B-008."
+    },
+    {
+      "id": "G-0032",
+      "src": "IMG-S-008-B",
+      "predicate": "depicts",
+      "tgt": "S-008-B",
+      "locator": "images/S-008-B.png",
+      "batch": "B-008",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0033",
+      "src": "B-009",
+      "predicate": "hasSample",
+      "tgt": "S-009-A",
+      "locator": "images/S-009-A.png",
+      "batch": "B-009",
+      "text": "S-009-A belongs to B-009."
+    },
+    {
+      "id": "G-0034",
+      "src": "IMG-S-009-A",
+      "predicate": "depicts",
+      "tgt": "S-009-A",
+      "locator": "images/S-009-A.png",
+      "batch": "B-009",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0035",
+      "src": "B-009",
+      "predicate": "hasSample",
+      "tgt": "S-009-B",
+      "locator": "images/S-009-B.png",
+      "batch": "B-009",
+      "text": "S-009-B belongs to B-009."
+    },
+    {
+      "id": "G-0036",
+      "src": "IMG-S-009-B",
+      "predicate": "depicts",
+      "tgt": "S-009-B",
+      "locator": "images/S-009-B.png",
+      "batch": "B-009",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0037",
+      "src": "B-010",
+      "predicate": "hasSample",
+      "tgt": "S-010-A",
+      "locator": "images/S-010-A.png",
+      "batch": "B-010",
+      "text": "S-010-A belongs to B-010."
+    },
+    {
+      "id": "G-0038",
+      "src": "IMG-S-010-A",
+      "predicate": "depicts",
+      "tgt": "S-010-A",
+      "locator": "images/S-010-A.png",
+      "batch": "B-010",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0039",
+      "src": "B-010",
+      "predicate": "hasSample",
+      "tgt": "S-010-B",
+      "locator": "images/S-010-B.png",
+      "batch": "B-010",
+      "text": "S-010-B belongs to B-010."
+    },
+    {
+      "id": "G-0040",
+      "src": "IMG-S-010-B",
+      "predicate": "depicts",
+      "tgt": "S-010-B",
+      "locator": "images/S-010-B.png",
+      "batch": "B-010",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0041",
+      "src": "B-011",
+      "predicate": "hasSample",
+      "tgt": "S-011-A",
+      "locator": "images/S-011-A.png",
+      "batch": "B-011",
+      "text": "S-011-A belongs to B-011."
+    },
+    {
+      "id": "G-0042",
+      "src": "IMG-S-011-A",
+      "predicate": "depicts",
+      "tgt": "S-011-A",
+      "locator": "images/S-011-A.png",
+      "batch": "B-011",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0043",
+      "src": "B-011",
+      "predicate": "hasSample",
+      "tgt": "S-011-B",
+      "locator": "images/S-011-B.png",
+      "batch": "B-011",
+      "text": "S-011-B belongs to B-011."
+    },
+    {
+      "id": "G-0044",
+      "src": "IMG-S-011-B",
+      "predicate": "depicts",
+      "tgt": "S-011-B",
+      "locator": "images/S-011-B.png",
+      "batch": "B-011",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0045",
+      "src": "B-012",
+      "predicate": "hasSample",
+      "tgt": "S-012-A",
+      "locator": "images/S-012-A.png",
+      "batch": "B-012",
+      "text": "S-012-A belongs to B-012."
+    },
+    {
+      "id": "G-0046",
+      "src": "IMG-S-012-A",
+      "predicate": "depicts",
+      "tgt": "S-012-A",
+      "locator": "images/S-012-A.png",
+      "batch": "B-012",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0047",
+      "src": "B-012",
+      "predicate": "hasSample",
+      "tgt": "S-012-B",
+      "locator": "images/S-012-B.png",
+      "batch": "B-012",
+      "text": "S-012-B belongs to B-012."
+    },
+    {
+      "id": "G-0048",
+      "src": "IMG-S-012-B",
+      "predicate": "depicts",
+      "tgt": "S-012-B",
+      "locator": "images/S-012-B.png",
+      "batch": "B-012",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0049",
+      "src": "B-013",
+      "predicate": "hasSample",
+      "tgt": "S-013-A",
+      "locator": "images/S-013-A.png",
+      "batch": "B-013",
+      "text": "S-013-A belongs to B-013."
+    },
+    {
+      "id": "G-0050",
+      "src": "IMG-S-013-A",
+      "predicate": "depicts",
+      "tgt": "S-013-A",
+      "locator": "images/S-013-A.png",
+      "batch": "B-013",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0051",
+      "src": "B-013",
+      "predicate": "hasSample",
+      "tgt": "S-013-B",
+      "locator": "images/S-013-B.png",
+      "batch": "B-013",
+      "text": "S-013-B belongs to B-013."
+    },
+    {
+      "id": "G-0052",
+      "src": "IMG-S-013-B",
+      "predicate": "depicts",
+      "tgt": "S-013-B",
+      "locator": "images/S-013-B.png",
+      "batch": "B-013",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0053",
+      "src": "B-014",
+      "predicate": "hasSample",
+      "tgt": "S-014-A",
+      "locator": "images/S-014-A.png",
+      "batch": "B-014",
+      "text": "S-014-A belongs to B-014."
+    },
+    {
+      "id": "G-0054",
+      "src": "IMG-S-014-A",
+      "predicate": "depicts",
+      "tgt": "S-014-A",
+      "locator": "images/S-014-A.png",
+      "batch": "B-014",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0055",
+      "src": "B-014",
+      "predicate": "hasSample",
+      "tgt": "S-014-B",
+      "locator": "images/S-014-B.png",
+      "batch": "B-014",
+      "text": "S-014-B belongs to B-014."
+    },
+    {
+      "id": "G-0056",
+      "src": "IMG-S-014-B",
+      "predicate": "depicts",
+      "tgt": "S-014-B",
+      "locator": "images/S-014-B.png",
+      "batch": "B-014",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0057",
+      "src": "B-015",
+      "predicate": "hasSample",
+      "tgt": "S-015-A",
+      "locator": "images/S-015-A.png",
+      "batch": "B-015",
+      "text": "S-015-A belongs to B-015."
+    },
+    {
+      "id": "G-0058",
+      "src": "IMG-S-015-A",
+      "predicate": "depicts",
+      "tgt": "S-015-A",
+      "locator": "images/S-015-A.png",
+      "batch": "B-015",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0059",
+      "src": "B-015",
+      "predicate": "hasSample",
+      "tgt": "S-015-B",
+      "locator": "images/S-015-B.png",
+      "batch": "B-015",
+      "text": "S-015-B belongs to B-015."
+    },
+    {
+      "id": "G-0060",
+      "src": "IMG-S-015-B",
+      "predicate": "depicts",
+      "tgt": "S-015-B",
+      "locator": "images/S-015-B.png",
+      "batch": "B-015",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0061",
+      "src": "B-016",
+      "predicate": "hasSample",
+      "tgt": "S-016-A",
+      "locator": "images/S-016-A.png",
+      "batch": "B-016",
+      "text": "S-016-A belongs to B-016."
+    },
+    {
+      "id": "G-0062",
+      "src": "IMG-S-016-A",
+      "predicate": "depicts",
+      "tgt": "S-016-A",
+      "locator": "images/S-016-A.png",
+      "batch": "B-016",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0063",
+      "src": "B-016",
+      "predicate": "hasSample",
+      "tgt": "S-016-B",
+      "locator": "images/S-016-B.png",
+      "batch": "B-016",
+      "text": "S-016-B belongs to B-016."
+    },
+    {
+      "id": "G-0064",
+      "src": "IMG-S-016-B",
+      "predicate": "depicts",
+      "tgt": "S-016-B",
+      "locator": "images/S-016-B.png",
+      "batch": "B-016",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0065",
+      "src": "B-017",
+      "predicate": "hasSample",
+      "tgt": "S-017-A",
+      "locator": "images/S-017-A.png",
+      "batch": "B-017",
+      "text": "S-017-A belongs to B-017."
+    },
+    {
+      "id": "G-0066",
+      "src": "IMG-S-017-A",
+      "predicate": "depicts",
+      "tgt": "S-017-A",
+      "locator": "images/S-017-A.png",
+      "batch": "B-017",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0067",
+      "src": "B-017",
+      "predicate": "hasSample",
+      "tgt": "S-017-B",
+      "locator": "images/S-017-B.png",
+      "batch": "B-017",
+      "text": "S-017-B belongs to B-017."
+    },
+    {
+      "id": "G-0068",
+      "src": "IMG-S-017-B",
+      "predicate": "depicts",
+      "tgt": "S-017-B",
+      "locator": "images/S-017-B.png",
+      "batch": "B-017",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0069",
+      "src": "B-018",
+      "predicate": "hasSample",
+      "tgt": "S-018-A",
+      "locator": "images/S-018-A.png",
+      "batch": "B-018",
+      "text": "S-018-A belongs to B-018."
+    },
+    {
+      "id": "G-0070",
+      "src": "IMG-S-018-A",
+      "predicate": "depicts",
+      "tgt": "S-018-A",
+      "locator": "images/S-018-A.png",
+      "batch": "B-018",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0071",
+      "src": "B-018",
+      "predicate": "hasSample",
+      "tgt": "S-018-B",
+      "locator": "images/S-018-B.png",
+      "batch": "B-018",
+      "text": "S-018-B belongs to B-018."
+    },
+    {
+      "id": "G-0072",
+      "src": "IMG-S-018-B",
+      "predicate": "depicts",
+      "tgt": "S-018-B",
+      "locator": "images/S-018-B.png",
+      "batch": "B-018",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0073",
+      "src": "B-019",
+      "predicate": "hasSample",
+      "tgt": "S-019-A",
+      "locator": "images/S-019-A.png",
+      "batch": "B-019",
+      "text": "S-019-A belongs to B-019."
+    },
+    {
+      "id": "G-0074",
+      "src": "IMG-S-019-A",
+      "predicate": "depicts",
+      "tgt": "S-019-A",
+      "locator": "images/S-019-A.png",
+      "batch": "B-019",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0075",
+      "src": "B-019",
+      "predicate": "hasSample",
+      "tgt": "S-019-B",
+      "locator": "images/S-019-B.png",
+      "batch": "B-019",
+      "text": "S-019-B belongs to B-019."
+    },
+    {
+      "id": "G-0076",
+      "src": "IMG-S-019-B",
+      "predicate": "depicts",
+      "tgt": "S-019-B",
+      "locator": "images/S-019-B.png",
+      "batch": "B-019",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0077",
+      "src": "B-020",
+      "predicate": "hasSample",
+      "tgt": "S-020-A",
+      "locator": "images/S-020-A.png",
+      "batch": "B-020",
+      "text": "S-020-A belongs to B-020."
+    },
+    {
+      "id": "G-0078",
+      "src": "IMG-S-020-A",
+      "predicate": "depicts",
+      "tgt": "S-020-A",
+      "locator": "images/S-020-A.png",
+      "batch": "B-020",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0079",
+      "src": "B-020",
+      "predicate": "hasSample",
+      "tgt": "S-020-B",
+      "locator": "images/S-020-B.png",
+      "batch": "B-020",
+      "text": "S-020-B belongs to B-020."
+    },
+    {
+      "id": "G-0080",
+      "src": "IMG-S-020-B",
+      "predicate": "depicts",
+      "tgt": "S-020-B",
+      "locator": "images/S-020-B.png",
+      "batch": "B-020",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0081",
+      "src": "S-001-A",
+      "predicate": "hasResult",
+      "tgt": "S-001-A-A01",
+      "locator": "lims.csv#3",
+      "batch": "B-001",
+      "text": "S-001-A has a Assay result recorded as S-001-A-A01."
+    },
+    {
+      "id": "G-0082",
+      "src": "S-001-A",
+      "predicate": "hasResult",
+      "tgt": "S-001-A-D30",
+      "locator": "lims.csv#2",
+      "batch": "B-001",
+      "text": "S-001-A has a Dissolution result recorded as S-001-A-D30."
+    },
+    {
+      "id": "G-0083",
+      "src": "S-001-B",
+      "predicate": "hasResult",
+      "tgt": "S-001-B-A01",
+      "locator": "lims.csv#5",
+      "batch": "B-001",
+      "text": "S-001-B has a Assay result recorded as S-001-B-A01."
+    },
+    {
+      "id": "G-0084",
+      "src": "S-001-B",
+      "predicate": "hasResult",
+      "tgt": "S-001-B-D30",
+      "locator": "lims.csv#4",
+      "batch": "B-001",
+      "text": "S-001-B has a Dissolution result recorded as S-001-B-D30."
+    },
+    {
+      "id": "G-0085",
+      "src": "S-002-A",
+      "predicate": "hasResult",
+      "tgt": "S-002-A-A01",
+      "locator": "lims.csv#7",
+      "batch": "B-002",
+      "text": "S-002-A has a Assay result recorded as S-002-A-A01."
+    },
+    {
+      "id": "G-0086",
+      "src": "S-002-A",
+      "predicate": "hasResult",
+      "tgt": "S-002-A-D30",
+      "locator": "lims.csv#6",
+      "batch": "B-002",
+      "text": "S-002-A has a Dissolution result recorded as S-002-A-D30."
+    },
+    {
+      "id": "G-0087",
+      "src": "S-002-B",
+      "predicate": "hasResult",
+      "tgt": "S-002-B-A01",
+      "locator": "lims.csv#9",
+      "batch": "B-002",
+      "text": "S-002-B has a Assay result recorded as S-002-B-A01."
+    },
+    {
+      "id": "G-0088",
+      "src": "S-002-B",
+      "predicate": "hasResult",
+      "tgt": "S-002-B-D30",
+      "locator": "lims.csv#8",
+      "batch": "B-002",
+      "text": "S-002-B has a Dissolution result recorded as S-002-B-D30."
+    },
+    {
+      "id": "G-0089",
+      "src": "S-003-A",
+      "predicate": "hasResult",
+      "tgt": "S-003-A-A01",
+      "locator": "lims.csv#11",
+      "batch": "B-003",
+      "text": "S-003-A has a Assay result recorded as S-003-A-A01."
+    },
+    {
+      "id": "G-0090",
+      "src": "S-003-A",
+      "predicate": "hasResult",
+      "tgt": "S-003-A-D30",
+      "locator": "lims.csv#10",
+      "batch": "B-003",
+      "text": "S-003-A has a Dissolution result recorded as S-003-A-D30."
+    },
+    {
+      "id": "G-0091",
+      "src": "S-003-B",
+      "predicate": "hasResult",
+      "tgt": "S-003-B-A01",
+      "locator": "lims.csv#13",
+      "batch": "B-003",
+      "text": "S-003-B has a Assay result recorded as S-003-B-A01."
+    },
+    {
+      "id": "G-0092",
+      "src": "S-003-B",
+      "predicate": "hasResult",
+      "tgt": "S-003-B-D30",
+      "locator": "lims.csv#12",
+      "batch": "B-003",
+      "text": "S-003-B has a Dissolution result recorded as S-003-B-D30."
+    },
+    {
+      "id": "G-0093",
+      "src": "S-004-A",
+      "predicate": "hasResult",
+      "tgt": "S-004-A-A01",
+      "locator": "lims.csv#15",
+      "batch": "B-004",
+      "text": "S-004-A has a Assay result recorded as S-004-A-A01."
+    },
+    {
+      "id": "G-0094",
+      "src": "S-004-A",
+      "predicate": "hasResult",
+      "tgt": "S-004-A-D30",
+      "locator": "lims.csv#14",
+      "batch": "B-004",
+      "text": "S-004-A has a Dissolution result recorded as S-004-A-D30."
+    },
+    {
+      "id": "G-0095",
+      "src": "S-004-B",
+      "predicate": "hasResult",
+      "tgt": "S-004-B-A01",
+      "locator": "lims.csv#17",
+      "batch": "B-004",
+      "text": "S-004-B has a Assay result recorded as S-004-B-A01."
+    },
+    {
+      "id": "G-0096",
+      "src": "S-004-B",
+      "predicate": "hasResult",
+      "tgt": "S-004-B-D30",
+      "locator": "lims.csv#16",
+      "batch": "B-004",
+      "text": "S-004-B has a Dissolution result recorded as S-004-B-D30."
+    },
+    {
+      "id": "G-0097",
+      "src": "S-005-A",
+      "predicate": "hasResult",
+      "tgt": "S-005-A-A01",
+      "locator": "lims.csv#19",
+      "batch": "B-005",
+      "text": "S-005-A has a Assay result recorded as S-005-A-A01."
+    },
+    {
+      "id": "G-0098",
+      "src": "S-005-A",
+      "predicate": "hasResult",
+      "tgt": "S-005-A-D30",
+      "locator": "lims.csv#18",
+      "batch": "B-005",
+      "text": "S-005-A has a Dissolution result recorded as S-005-A-D30."
+    },
+    {
+      "id": "G-0099",
+      "src": "S-005-B",
+      "predicate": "hasResult",
+      "tgt": "S-005-B-A01",
+      "locator": "lims.csv#21",
+      "batch": "B-005",
+      "text": "S-005-B has a Assay result recorded as S-005-B-A01."
+    },
+    {
+      "id": "G-0100",
+      "src": "S-005-B",
+      "predicate": "hasResult",
+      "tgt": "S-005-B-D30",
+      "locator": "lims.csv#20",
+      "batch": "B-005",
+      "text": "S-005-B has a Dissolution result recorded as S-005-B-D30."
+    },
+    {
+      "id": "G-0101",
+      "src": "S-006-A",
+      "predicate": "hasResult",
+      "tgt": "S-006-A-A01",
+      "locator": "lims.csv#23",
+      "batch": "B-006",
+      "text": "S-006-A has a Assay result recorded as S-006-A-A01."
+    },
+    {
+      "id": "G-0102",
+      "src": "S-006-A",
+      "predicate": "hasResult",
+      "tgt": "S-006-A-D30",
+      "locator": "lims.csv#22",
+      "batch": "B-006",
+      "text": "S-006-A has a Dissolution result recorded as S-006-A-D30."
+    },
+    {
+      "id": "G-0103",
+      "src": "S-006-B",
+      "predicate": "hasResult",
+      "tgt": "S-006-B-A01",
+      "locator": "lims.csv#25",
+      "batch": "B-006",
+      "text": "S-006-B has a Assay result recorded as S-006-B-A01."
+    },
+    {
+      "id": "G-0104",
+      "src": "S-006-B",
+      "predicate": "hasResult",
+      "tgt": "S-006-B-D30",
+      "locator": "lims.csv#24",
+      "batch": "B-006",
+      "text": "S-006-B has a Dissolution result recorded as S-006-B-D30."
+    },
+    {
+      "id": "G-0105",
+      "src": "S-007-A",
+      "predicate": "hasResult",
+      "tgt": "S-007-A-A01",
+      "locator": "lims.csv#27",
+      "batch": "B-007",
+      "text": "S-007-A has a Assay result recorded as S-007-A-A01."
+    },
+    {
+      "id": "G-0106",
+      "src": "S-007-A",
+      "predicate": "hasResult",
+      "tgt": "S-007-A-D30",
+      "locator": "lims.csv#26",
+      "batch": "B-007",
+      "text": "S-007-A has a Dissolution result recorded as S-007-A-D30."
+    },
+    {
+      "id": "G-0107",
+      "src": "S-007-B",
+      "predicate": "hasResult",
+      "tgt": "S-007-B-A01",
+      "locator": "lims.csv#29",
+      "batch": "B-007",
+      "text": "S-007-B has a Assay result recorded as S-007-B-A01."
+    },
+    {
+      "id": "G-0108",
+      "src": "S-007-B",
+      "predicate": "hasResult",
+      "tgt": "S-007-B-D30",
+      "locator": "lims.csv#28",
+      "batch": "B-007",
+      "text": "S-007-B has a Dissolution result recorded as S-007-B-D30."
+    },
+    {
+      "id": "G-0109",
+      "src": "S-008-A",
+      "predicate": "hasResult",
+      "tgt": "S-008-A-A01",
+      "locator": "lims.csv#31",
+      "batch": "B-008",
+      "text": "S-008-A has a Assay result recorded as S-008-A-A01."
+    },
+    {
+      "id": "G-0110",
+      "src": "S-008-A",
+      "predicate": "hasResult",
+      "tgt": "S-008-A-D30",
+      "locator": "lims.csv#30",
+      "batch": "B-008",
+      "text": "S-008-A has a Dissolution result recorded as S-008-A-D30."
+    },
+    {
+      "id": "G-0111",
+      "src": "S-008-B",
+      "predicate": "hasResult",
+      "tgt": "S-008-B-A01",
+      "locator": "lims.csv#33",
+      "batch": "B-008",
+      "text": "S-008-B has a Assay result recorded as S-008-B-A01."
+    },
+    {
+      "id": "G-0112",
+      "src": "S-008-B",
+      "predicate": "hasResult",
+      "tgt": "S-008-B-D30",
+      "locator": "lims.csv#32",
+      "batch": "B-008",
+      "text": "S-008-B has a Dissolution result recorded as S-008-B-D30."
+    },
+    {
+      "id": "G-0113",
+      "src": "S-009-A",
+      "predicate": "hasResult",
+      "tgt": "S-009-A-A01",
+      "locator": "lims.csv#35",
+      "batch": "B-009",
+      "text": "S-009-A has a Assay result recorded as S-009-A-A01."
+    },
+    {
+      "id": "G-0114",
+      "src": "S-009-A",
+      "predicate": "hasResult",
+      "tgt": "S-009-A-D30",
+      "locator": "lims.csv#34",
+      "batch": "B-009",
+      "text": "S-009-A has a Dissolution result recorded as S-009-A-D30."
+    },
+    {
+      "id": "G-0115",
+      "src": "S-009-B",
+      "predicate": "hasResult",
+      "tgt": "S-009-B-A01",
+      "locator": "lims.csv#37",
+      "batch": "B-009",
+      "text": "S-009-B has a Assay result recorded as S-009-B-A01."
+    },
+    {
+      "id": "G-0116",
+      "src": "S-009-B",
+      "predicate": "hasResult",
+      "tgt": "S-009-B-D30",
+      "locator": "lims.csv#36",
+      "batch": "B-009",
+      "text": "S-009-B has a Dissolution result recorded as S-009-B-D30."
+    },
+    {
+      "id": "G-0117",
+      "src": "S-010-A",
+      "predicate": "hasResult",
+      "tgt": "S-010-A-A01",
+      "locator": "lims.csv#39",
+      "batch": "B-010",
+      "text": "S-010-A has a Assay result recorded as S-010-A-A01."
+    },
+    {
+      "id": "G-0118",
+      "src": "S-010-A",
+      "predicate": "hasResult",
+      "tgt": "S-010-A-D30",
+      "locator": "lims.csv#38",
+      "batch": "B-010",
+      "text": "S-010-A has a Dissolution result recorded as S-010-A-D30."
+    },
+    {
+      "id": "G-0119",
+      "src": "S-010-B",
+      "predicate": "hasResult",
+      "tgt": "S-010-B-A01",
+      "locator": "lims.csv#41",
+      "batch": "B-010",
+      "text": "S-010-B has a Assay result recorded as S-010-B-A01."
+    },
+    {
+      "id": "G-0120",
+      "src": "S-010-B",
+      "predicate": "hasResult",
+      "tgt": "S-010-B-D30",
+      "locator": "lims.csv#40",
+      "batch": "B-010",
+      "text": "S-010-B has a Dissolution result recorded as S-010-B-D30."
+    },
+    {
+      "id": "G-0121",
+      "src": "S-011-A",
+      "predicate": "hasResult",
+      "tgt": "S-011-A-A01",
+      "locator": "lims.csv#43",
+      "batch": "B-011",
+      "text": "S-011-A has a Assay result recorded as S-011-A-A01."
+    },
+    {
+      "id": "G-0122",
+      "src": "S-011-B",
+      "predicate": "hasResult",
+      "tgt": "S-011-B-A01",
+      "locator": "lims.csv#45",
+      "batch": "B-011",
+      "text": "S-011-B has a Assay result recorded as S-011-B-A01."
+    },
+    {
+      "id": "G-0123",
+      "src": "S-011-B",
+      "predicate": "hasResult",
+      "tgt": "S-011-B-D30",
+      "locator": "lims.csv#44",
+      "batch": "B-011",
+      "text": "S-011-B has a Dissolution result recorded as S-011-B-D30."
+    },
+    {
+      "id": "G-0124",
+      "src": "S-012-A",
+      "predicate": "hasResult",
+      "tgt": "S-012-A-A01",
+      "locator": "lims.csv#47",
+      "batch": "B-012",
+      "text": "S-012-A has a Assay result recorded as S-012-A-A01."
+    },
+    {
+      "id": "G-0125",
+      "src": "S-012-A",
+      "predicate": "hasResult",
+      "tgt": "S-012-A-D30",
+      "locator": "lims.csv#46",
+      "batch": "B-012",
+      "text": "S-012-A has a Dissolution result recorded as S-012-A-D30."
+    },
+    {
+      "id": "G-0126",
+      "src": "S-012-B",
+      "predicate": "hasResult",
+      "tgt": "S-012-B-A01",
+      "locator": "lims.csv#49",
+      "batch": "B-012",
+      "text": "S-012-B has a Assay result recorded as S-012-B-A01."
+    },
+    {
+      "id": "G-0127",
+      "src": "S-012-B",
+      "predicate": "hasResult",
+      "tgt": "S-012-B-D30",
+      "locator": "lims.csv#48",
+      "batch": "B-012",
+      "text": "S-012-B has a Dissolution result recorded as S-012-B-D30."
+    },
+    {
+      "id": "G-0128",
+      "src": "S-013-A",
+      "predicate": "hasResult",
+      "tgt": "S-013-A-A01",
+      "locator": "lims.csv#51",
+      "batch": "B-013",
+      "text": "S-013-A has a Assay result recorded as S-013-A-A01."
+    },
+    {
+      "id": "G-0129",
+      "src": "S-013-A",
+      "predicate": "hasResult",
+      "tgt": "S-013-A-D30",
+      "locator": "lims.csv#50",
+      "batch": "B-013",
+      "text": "S-013-A has a Dissolution result recorded as S-013-A-D30."
+    },
+    {
+      "id": "G-0130",
+      "src": "S-013-B",
+      "predicate": "hasResult",
+      "tgt": "S-013-B-A01",
+      "locator": "lims.csv#53",
+      "batch": "B-013",
+      "text": "S-013-B has a Assay result recorded as S-013-B-A01."
+    },
+    {
+      "id": "G-0131",
+      "src": "S-014-A",
+      "predicate": "hasResult",
+      "tgt": "S-014-A-A01",
+      "locator": "lims.csv#55",
+      "batch": "B-014",
+      "text": "S-014-A has a Assay result recorded as S-014-A-A01."
+    },
+    {
+      "id": "G-0132",
+      "src": "S-014-A",
+      "predicate": "hasResult",
+      "tgt": "S-014-A-D30",
+      "locator": "lims.csv#54",
+      "batch": "B-014",
+      "text": "S-014-A has a Dissolution result recorded as S-014-A-D30."
+    },
+    {
+      "id": "G-0133",
+      "src": "S-014-B",
+      "predicate": "hasResult",
+      "tgt": "S-014-B-A01",
+      "locator": "lims.csv#57",
+      "batch": "B-014",
+      "text": "S-014-B has a Assay result recorded as S-014-B-A01."
+    },
+    {
+      "id": "G-0134",
+      "src": "S-014-B",
+      "predicate": "hasResult",
+      "tgt": "S-014-B-D30",
+      "locator": "lims.csv#56",
+      "batch": "B-014",
+      "text": "S-014-B has a Dissolution result recorded as S-014-B-D30."
+    },
+    {
+      "id": "G-0135",
+      "src": "S-015-A",
+      "predicate": "hasResult",
+      "tgt": "S-015-A-A01",
+      "locator": "lims.csv#59",
+      "batch": "B-015",
+      "text": "S-015-A has a Assay result recorded as S-015-A-A01."
+    },
+    {
+      "id": "G-0136",
+      "src": "S-015-A",
+      "predicate": "hasResult",
+      "tgt": "S-015-A-D30",
+      "locator": "lims.csv#58",
+      "batch": "B-015",
+      "text": "S-015-A has a Dissolution result recorded as S-015-A-D30."
+    },
+    {
+      "id": "G-0137",
+      "src": "S-015-B",
+      "predicate": "hasResult",
+      "tgt": "S-015-B-A01",
+      "locator": "lims.csv#61",
+      "batch": "B-015",
+      "text": "S-015-B has a Assay result recorded as S-015-B-A01."
+    },
+    {
+      "id": "G-0138",
+      "src": "S-015-B",
+      "predicate": "hasResult",
+      "tgt": "S-015-B-D30",
+      "locator": "lims.csv#60",
+      "batch": "B-015",
+      "text": "S-015-B has a Dissolution result recorded as S-015-B-D30."
+    },
+    {
+      "id": "G-0139",
+      "src": "S-016-A",
+      "predicate": "hasResult",
+      "tgt": "S-016-A-A01",
+      "locator": "lims.csv#63",
+      "batch": "B-016",
+      "text": "S-016-A has a Assay result recorded as S-016-A-A01."
+    },
+    {
+      "id": "G-0140",
+      "src": "S-016-A",
+      "predicate": "hasResult",
+      "tgt": "S-016-A-D30",
+      "locator": "lims.csv#62",
+      "batch": "B-016",
+      "text": "S-016-A has a Dissolution result recorded as S-016-A-D30."
+    },
+    {
+      "id": "G-0141",
+      "src": "S-016-B",
+      "predicate": "hasResult",
+      "tgt": "S-016-B-A01",
+      "locator": "lims.csv#65",
+      "batch": "B-016",
+      "text": "S-016-B has a Assay result recorded as S-016-B-A01."
+    },
+    {
+      "id": "G-0142",
+      "src": "S-016-B",
+      "predicate": "hasResult",
+      "tgt": "S-016-B-D30",
+      "locator": "lims.csv#64",
+      "batch": "B-016",
+      "text": "S-016-B has a Dissolution result recorded as S-016-B-D30."
+    },
+    {
+      "id": "G-0143",
+      "src": "S-017-A",
+      "predicate": "hasResult",
+      "tgt": "S-017-A-A01",
+      "locator": "lims.csv#67",
+      "batch": "B-017",
+      "text": "S-017-A has a Assay result recorded as S-017-A-A01."
+    },
+    {
+      "id": "G-0144",
+      "src": "S-017-A",
+      "predicate": "hasResult",
+      "tgt": "S-017-A-D30",
+      "locator": "lims.csv#66",
+      "batch": "B-017",
+      "text": "S-017-A has a Dissolution result recorded as S-017-A-D30."
+    },
+    {
+      "id": "G-0145",
+      "src": "S-017-B",
+      "predicate": "hasResult",
+      "tgt": "S-017-B-A01",
+      "locator": "lims.csv#69",
+      "batch": "B-017",
+      "text": "S-017-B has a Assay result recorded as S-017-B-A01."
+    },
+    {
+      "id": "G-0146",
+      "src": "S-017-B",
+      "predicate": "hasResult",
+      "tgt": "S-017-B-D30",
+      "locator": "lims.csv#68",
+      "batch": "B-017",
+      "text": "S-017-B has a Dissolution result recorded as S-017-B-D30."
+    },
+    {
+      "id": "G-0147",
+      "src": "S-018-A",
+      "predicate": "hasResult",
+      "tgt": "S-018-A-A01",
+      "locator": "lims.csv#71",
+      "batch": "B-018",
+      "text": "S-018-A has a Assay result recorded as S-018-A-A01."
+    },
+    {
+      "id": "G-0148",
+      "src": "S-018-B",
+      "predicate": "hasResult",
+      "tgt": "S-018-B-A01",
+      "locator": "lims.csv#73",
+      "batch": "B-018",
+      "text": "S-018-B has a Assay result recorded as S-018-B-A01."
+    },
+    {
+      "id": "G-0149",
+      "src": "S-018-B",
+      "predicate": "hasResult",
+      "tgt": "S-018-B-D30",
+      "locator": "lims.csv#72",
+      "batch": "B-018",
+      "text": "S-018-B has a Dissolution result recorded as S-018-B-D30."
+    },
+    {
+      "id": "G-0150",
+      "src": "S-019-A",
+      "predicate": "hasResult",
+      "tgt": "S-019-A-A01",
+      "locator": "lims.csv#75",
+      "batch": "B-019",
+      "text": "S-019-A has a Assay result recorded as S-019-A-A01."
+    },
+    {
+      "id": "G-0151",
+      "src": "S-019-A",
+      "predicate": "hasResult",
+      "tgt": "S-019-A-D30",
+      "locator": "lims.csv#74",
+      "batch": "B-019",
+      "text": "S-019-A has a Dissolution result recorded as S-019-A-D30."
+    },
+    {
+      "id": "G-0152",
+      "src": "S-019-B",
+      "predicate": "hasResult",
+      "tgt": "S-019-B-A01",
+      "locator": "lims.csv#77",
+      "batch": "B-019",
+      "text": "S-019-B has a Assay result recorded as S-019-B-A01."
+    },
+    {
+      "id": "G-0153",
+      "src": "S-019-B",
+      "predicate": "hasResult",
+      "tgt": "S-019-B-D30",
+      "locator": "lims.csv#76",
+      "batch": "B-019",
+      "text": "S-019-B has a Dissolution result recorded as S-019-B-D30."
+    },
+    {
+      "id": "G-0154",
+      "src": "S-020-A",
+      "predicate": "hasResult",
+      "tgt": "S-020-A-A01",
+      "locator": "lims.csv#79",
+      "batch": "B-020",
+      "text": "S-020-A has a Assay result recorded as S-020-A-A01."
+    },
+    {
+      "id": "G-0155",
+      "src": "S-020-A",
+      "predicate": "hasResult",
+      "tgt": "S-020-A-D30",
+      "locator": "lims.csv#78",
+      "batch": "B-020",
+      "text": "S-020-A has a Dissolution result recorded as S-020-A-D30."
+    },
+    {
+      "id": "G-0156",
+      "src": "S-020-B",
+      "predicate": "hasResult",
+      "tgt": "S-020-B-A01",
+      "locator": "lims.csv#81",
+      "batch": "B-020",
+      "text": "S-020-B has a Assay result recorded as S-020-B-A01."
+    },
+    {
+      "id": "G-0157",
+      "src": "RUN-001",
+      "predicate": "processes",
+      "tgt": "B-001",
+      "locator": "eln.csv#2",
+      "batch": "B-001",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "G-0158",
+      "src": "RUN-002",
+      "predicate": "processes",
+      "tgt": "B-002",
+      "locator": "eln.csv#3",
+      "batch": "B-002",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "G-0159",
+      "src": "RUN-004",
+      "predicate": "processes",
+      "tgt": "B-004",
+      "locator": "eln.csv#5",
+      "batch": "B-004",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0160",
+      "src": "RUN-005",
+      "predicate": "processes",
+      "tgt": "B-005",
+      "locator": "eln.csv#6",
+      "batch": "B-005",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0161",
+      "src": "RUN-006",
+      "predicate": "processes",
+      "tgt": "B-006",
+      "locator": "eln.csv#7",
+      "batch": "B-006",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0162",
+      "src": "RUN-007",
+      "predicate": "processes",
+      "tgt": "B-007",
+      "locator": "eln.csv#8",
+      "batch": "B-007",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0163",
+      "src": "RUN-008",
+      "predicate": "processes",
+      "tgt": "B-008",
+      "locator": "eln.csv#9",
+      "batch": "B-008",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0164",
+      "src": "RUN-009",
+      "predicate": "processes",
+      "tgt": "B-009",
+      "locator": "eln.csv#10",
+      "batch": "B-009",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0165",
+      "src": "RUN-010",
+      "predicate": "processes",
+      "tgt": "B-010",
+      "locator": "eln.csv#11",
+      "batch": "B-010",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0166",
+      "src": "RUN-011",
+      "predicate": "processes",
+      "tgt": "B-011",
+      "locator": "eln.csv#12",
+      "batch": "B-011",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0167",
+      "src": "RUN-012",
+      "predicate": "processes",
+      "tgt": "B-012",
+      "locator": "eln.csv#13",
+      "batch": "B-012",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0168",
+      "src": "RUN-013",
+      "predicate": "processes",
+      "tgt": "B-013",
+      "locator": "eln.csv#14",
+      "batch": "B-013",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0169",
+      "src": "RUN-014",
+      "predicate": "processes",
+      "tgt": "B-014",
+      "locator": "eln.csv#15",
+      "batch": "B-014",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0170",
+      "src": "RUN-015",
+      "predicate": "processes",
+      "tgt": "B-015",
+      "locator": "eln.csv#16",
+      "batch": "B-015",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0171",
+      "src": "RUN-016",
+      "predicate": "processes",
+      "tgt": "B-016",
+      "locator": "eln.csv#17",
+      "batch": "B-016",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0172",
+      "src": "RUN-017",
+      "predicate": "processes",
+      "tgt": "B-017",
+      "locator": "eln.csv#18",
+      "batch": "B-017",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0173",
+      "src": "RUN-018",
+      "predicate": "processes",
+      "tgt": "B-018",
+      "locator": "eln.csv#19",
+      "batch": "B-018",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0174",
+      "src": "RUN-019",
+      "predicate": "processes",
+      "tgt": "B-019",
+      "locator": "eln.csv#20",
+      "batch": "B-019",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0175",
+      "src": "RUN-020",
+      "predicate": "processes",
+      "tgt": "B-020",
+      "locator": "eln.csv#21",
+      "batch": "B-020",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0176",
+      "src": "DOC-B-001",
+      "predicate": "documents",
+      "tgt": "S-001-A",
+      "locator": "reports/B-001.pdf#page 1, #/texts/1",
+      "batch": "B-001",
+      "text": "Sample S-001-A was collected during RUN-001."
+    },
+    {
+      "id": "G-0177",
+      "src": "S-001-A",
+      "predicate": "hasObservation",
+      "tgt": "OBS-C-003",
+      "locator": "reports/B-001.pdf#page 1, #/texts/2",
+      "batch": "B-001",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "G-0178",
+      "src": "DOC-B-002",
+      "predicate": "documents",
+      "tgt": "S-002-A",
+      "locator": "reports/B-002.docx##/texts/1",
+      "batch": "B-002",
+      "text": "Sample S-002-A was collected during RUN-002."
+    },
+    {
+      "id": "G-0179",
+      "src": "S-002-A",
+      "predicate": "hasObservation",
+      "tgt": "OBS-C-008",
+      "locator": "reports/B-002.docx##/texts/2",
+      "batch": "B-002",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "G-0180",
+      "src": "DOC-B-002",
+      "predicate": "documents",
+      "tgt": "S-002-A",
+      "locator": "reports/B-002.docx##/tables/0",
+      "batch": "B-002",
+      "text": "| Sample   | Appearance   |\n|----------|--------------|\n| S-002-A  | chipped      |"
+    },
+    {
+      "id": "G-0181",
+      "src": "DOC-B-003",
+      "predicate": "documents",
+      "tgt": "S-003-A",
+      "locator": "reports/B-003.pdf#page 1, #/texts/1",
+      "batch": "B-003",
+      "text": "Sample S-003-A was collected during RUN-003."
+    },
+    {
+      "id": "G-0182",
+      "src": "S-003-A",
+      "predicate": "hasObservation",
+      "tgt": "OBS-C-014",
+      "locator": "reports/B-003.pdf#page 1, #/texts/2",
+      "batch": "B-003",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0183",
+      "src": "DOC-B-004",
+      "predicate": "documents",
+      "tgt": "S-004-A",
+      "locator": "reports/B-004.docx##/texts/1",
+      "batch": "B-004",
+      "text": "Sample S-004-A was collected during RUN-004."
+    },
+    {
+      "id": "G-0184",
+      "src": "S-004-A",
+      "predicate": "hasObservation",
+      "tgt": "OBS-C-019",
+      "locator": "reports/B-004.docx##/texts/2",
+      "batch": "B-004",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "G-0185",
+      "src": "DOC-B-004",
+      "predicate": "documents",
+      "tgt": "S-004-A",
+      "locator": "reports/B-004.docx##/tables/0",
+      "batch": "B-004",
+      "text": "| Sample   | Appearance   |\n|----------|--------------|\n| S-004-A  | mottled      |"
+    },
+    {
+      "id": "G-0186",
+      "src": "DOC-B-005",
+      "predicate": "documents",
+      "tgt": "S-005-A",
+      "locator": "reports/B-005.pdf#page 1, #/texts/1",
+      "batch": "B-005",
+      "text": "Sample S-005-A was collected during RUN-005."
+    },
+    {
+      "id": "G-0187",
+      "src": "S-005-A",
+      "predicate": "hasObservation",
+      "tgt": "OBS-C-025",
+      "locator": "reports/B-005.pdf#page 1, #/texts/2",
+      "batch": "B-005",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0188",
+      "src": "DOC-B-006",
+      "predicate": "documents",
+      "tgt": "S-006-A",
+      "locator": "reports/B-006.docx##/texts/1",
+      "batch": "B-006",
+      "text": "Sample S-006-A was collected during RUN-006."
+    },
+    {
+      "id": "G-0189",
+      "src": "S-006-A",
+      "predicate": "hasObservation",
+      "tgt": "OBS-C-030",
+      "locator": "reports/B-006.docx##/texts/2",
+      "batch": "B-006",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "G-0190",
+      "src": "DOC-B-006",
+      "predicate": "documents",
+      "tgt": "S-006-A",
+      "locator": "reports/B-006.docx##/tables/0",
+      "batch": "B-006",
+      "text": "| Sample   | Appearance   |\n|----------|--------------|\n| S-006-A  | intact       |"
+    }
+  ],
+  "extraction": "Controlled report sentence pattern"
+}
