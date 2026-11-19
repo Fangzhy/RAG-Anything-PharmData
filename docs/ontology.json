@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "namespace": "urn:pharm-demo:",
+  "alignment": {"laboratory_domains": "https://docs.allotrope.org/", "units": "https://ucum.org/ucum", "provenance": "http://www.w3.org/ns/prov#wasDerivedFrom"},
+  "classes": {"Batch": "A fictional product lot", "Sample": "Specimen taken from one lot", "Experiment": "Electronic notebook entry", "ProcessRun": "Time-bounded equipment run", "SensorReading": "Timestamped channel observation", "TestResult": "Measured laboratory result", "Document": "Versioned lab report", "InspectionImage": "Sample inspection capture", "Observation": "Source-supported visual description"},
+  "predicates": {"hasSample": ["Batch", "Sample"], "processes": ["ProcessRun", "Batch"], "hasResult": ["Sample", "TestResult"], "depicts": ["InspectionImage", "Sample"], "documents": ["Document", "Sample"], "hasObservation": ["Sample", "Observation"]}
+}
