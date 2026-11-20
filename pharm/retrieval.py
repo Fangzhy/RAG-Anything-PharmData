@@ -36,15 +36,15 @@ def sql_search(folder, question, batch=None, limit=12):
     found = []
     with closing(read_db(folder / "study.sqlite")) as db:
         if lab or (scoped and not sensor and not eln):
-            method = "A01" if "assay" in q and "dissol" not in q else "D30"
-            low_only = method == "D30" and any(w in q for w in ("low","below","flag","failed"))
+            test = "Assay" if "assay" in q and "dissol" not in q else "Dissolution"
+            low_only = any(w in q for w in ("low","below","flag","failed"))
             query = """SELECT l.*, c.lower_bound FROM lims l JOIN criteria c USING(method)
-                       WHERE method=? AND (? IS NULL OR l.batch=?) AND (? IS NULL OR sample=?)
+                       WHERE l.test=? COLLATE NOCASE AND (? IS NULL OR l.batch=?) AND (? IS NULL OR sample=?)
                        AND (?=0 OR value<c.lower_bound) ORDER BY value,id LIMIT ?"""
-            params = (method,batch,batch,sample,sample,int(low_only),limit)
+            params = (test,batch,batch,sample,sample,int(low_only),limit)
             for r in db.execute(query,params):
-                label = f" at {r['time_min']} min" if method == "D30" else ""
-                criterion = f" (study lower bound {r['lower_bound']:g}%)" if r["lower_bound"] is not None else ""
+                label = f" at {r['time_min']} min" if test == "Dissolution" else ""
+                criterion = f" (study lower bound {r['lower_bound']:g}{r['unit']})" if r["lower_bound"] is not None else ""
                 found.append(evidence("SQL-"+r["id"],"SQL",r["batch"],r["sample"],f"{r['sample']} {r['test']}{label}: {r['value']:g}{r['unit']}{criterion}.",r["locator"],query=query,parameters=params,kind="result"))
         target = batch or ("B-"+sample.split("-")[1] if sample else None)
         # Scope follow-up records to the batches established by the measurement query.
@@ -99,16 +99,16 @@ def vector_search(folder, question, image=None, batch=None, weight=0.5, limit=5)
             item = items[space][idx]
             if (batch and item["batch"] != batch) or (sample and item["sample"] != sample):
                 continue
-            group = item["sample"]
+            group = item["sample"] or item["path"]
             if group not in ranks:
                 ranks[group] = len(ranks)+1
                 scores[group] += share / (60+ranks[group])
             key = (space,item["kind"])
             matched[group].setdefault(key,item)
 
-    if w > 0:
+    if w > 0 and items["text"]:
         rank("text",encode_text([question])[0],w)
-    if w < 1:
+    if w < 1 and items["visual"]:
         parts = []
         if question.strip():
             parts.append(encode_visual([question])[0])

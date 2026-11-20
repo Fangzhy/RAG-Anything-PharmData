@@ -30,11 +30,22 @@ def test_search_page():
     page.sidebar.radio[0].set_value("Search evidence").run()
     page.radio[0].set_value("SQL")
     page.text_input[0].set_value("low dissolution")
-    page.button[0].click().run()
+    next(b for b in page.button if b.label=="Search").click().run()
     assert not page.exception
     assert any("72.5%" in x.value for x in page.markdown)
     page.radio[0].set_value("Graph")
     page.text_input[0].set_value("inspection of B-001")
-    page.button[0].click().run()
+    next(b for b in page.button if b.label=="Search").click().run()
     assert not page.exception
     assert any("hasObservation" in x.value for x in page.markdown)
+
+def test_demo_photo_search_control():
+    page = AppTest.from_file(DATA.parent/"app.py",default_timeout=90).run()
+    page.sidebar.radio[0].set_value("Search evidence").run()
+    page.text_input[0].set_value("")
+    page.button(key="search-demo-image").click().run()
+    next(b for b in page.button if b.label=="Search").click().run()
+    assert not page.exception
+    assert any(item["kind"]=="image" for item in page.session_state.search_result[1])
+    page.button(key="search-clear-image").click().run()
+    assert not page.session_state["search-demo-selected"]
