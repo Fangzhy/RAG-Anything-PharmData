@@ -1,6 +1,18 @@
-# Batch investigation
+# Make Your Pharma Data AI Ready and Chat with Them
+[Launch live demo](https://rag-anything-pharma.streamlit.app/)
 
-A four-page Streamlit demo for investigating a fictional tablet study. Start with **Explore data** to trace batch B-001 across the notebook, lab results, press historian, inspection reports, and images. **Preprocess data** exposes the validation ledger, Docling output, and ontology-backed graph. **Search data** accepts text, an image, or both. **Chat & Compare** opens in Chat mode for one cited answer. Turn on the toggle above the source controls to compare two selections side by side using the same question and image.
+**Chat With Pharma Data** lets R&D colleagues investigate a tablet batch and trace an answer to a measurement, lab note, report passage, image, or graph relationship.
+
+## Try the demo
+
+| Page | What to do | What to look for |
+| --- | --- | --- |
+| **Explore data** | Click **Use Demo Data** and select B-001. Open the LIMS export, inspection images, and lab report. | The sample IDs connect the recorded measurements to the inspected tablets. |
+| **Preprocess data** | In **Validation ledger**, choose `lims` and inspect **Corrected** and **Quarantined** rows. Open the document and graph tabs. | Of 80 LIMS rows, 64 passed immediately, 12 passed after a unit correction, and four lacked a measurement. The prepared demo is ready to inspect. |
+| **Search data** | Choose **Vector**, select **Use demo image**, clear the search text, and click **Search**. Add text and adjust the text weight to try a combined query. | Image matches and associated descriptions carry source locators. SQL and Graph are also available for text queries. |
+| **Chat & Compare** | With the toggle off, ask the opening dissolution question using **SQL**. Turn the toggle on and run the default comparison. | Both panels should identify B-001 at **72.5% at 30 minutes**. The right panel can also cite the chipped-tablet inspection images. |
+
+Chat uses one source selector. Compare defaults to **SQL** on the left and **SQL + Vector + Graph** on the right. Switching modes keeps the question, image, batch filter, and weighting. Expand **Evidence overlap** to inspect shared and unique citation IDs, or retry an individual panel if generation fails.
 
 ## Run locally
 
@@ -21,8 +33,6 @@ The committed study opens immediately. Semantic queries load two pinned Hugging 
 | `data/raw/` | Original CSV exports, six PDF/Word reports, forty PNG inspections, and the asset catalog |
 | `data/evaluation/` | Expected correction and quarantine IDs and a held-out query image used by tests |
 | `data/prepared/` | Active build pointer, accepted SQLite tables and validation ledger, Docling JSON/Markdown, normalized vectors, directed evidence graph, and persisted LightRAG projection |
-
-Try **LIMS → Quarantined** on the processing page. Of 80 LIMS records, 64 are valid on arrival, 12 have a documented unit correction, and four lack a measured value. Those four remain available for review and are excluded from numeric retrieval. For comparison, run the opening question with SQL on the left and all three sources on the right. Expand the citations to see which panel retrieved the inspection images.
 
 The local vector index stores normalized MiniLM and OpenCLIP embeddings in separate NumPy arrays. The text and visual rankings are fused by sample. The graph view uses the directed assertions and source locators from the same build that populates LightRAG's local graph. LightRAG synthesizes the evidence packet through its retrieval-bypass mode so each source selector controls the evidence shown to the model.
 
@@ -50,4 +60,13 @@ The generator writes the fixed synthetic investigation under `data`. The builder
 
 Choose the repository branch containing the four pages, `app.py` as the entry point, and Python 3.12. Community Cloud installs `requirements.txt` for serving. The committed prepared study supplies SQLite, document previews, and both indexes on a fresh restart. Set the top-level `OPENROUTER_API_KEY` and `OPENROUTER_MODEL` values in Community Cloud secrets. The runtime includes Docling for uploaded reports and RDFLib for ontology files. [App dependencies](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies) · [Secrets management](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management)
 
-Verify a cold start by opening B-001, tracing a corrected and a quarantined row, uploading `data/evaluation/query-chipped.png`, and running the default comparison. One local Windows comparison with both encoders peaked at approximately 1.8 GiB of process memory. Check cloud memory and latency on the deployed instance. [Community Cloud resource limits](https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app)
+### Deployment status
+
+| Step | Status as of November 19, 2026 |
+| --- | --- |
+| Local release | **Verified.** All 18 tests passed on `ca220e2`. The project environment passed `pip check`. |
+| Demo bundle and dependencies | **Prepared.** SQLite, parsed documents, vectors, and graph are committed. The runtime requirements resolved for Linux x86-64 and Python 3.12. |
+| Publish to Community Cloud | **Deferred by the project owner.** At deployment, select the release branch and configure the hosted OpenRouter secrets. |
+| Hosted acceptance | **Pending deployment.** After a cold start, complete the four-page walkthrough, process an uploaded study, and check restart recovery. Record hosted memory and latency. The previous local Windows comparison peaked around 1.8 GiB. |
+
+The hosted smoke test passes when both modes cite the B-001 measurements, the combined panel also cites the inspection images, and the prepared demo reopens after a restart with the same ledger counts. [Community Cloud resource limits](https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app)
