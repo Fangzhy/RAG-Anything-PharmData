@@ -1,5 +1,6 @@
 """Import and validate the editable contracts used by the study pipeline."""
 import json
+from collections import Counter
 from pathlib import Path
 
 from rdflib import Graph, Literal, URIRef
@@ -77,8 +78,8 @@ def import_ontology(name,content):
         return str(uri).rsplit("#",1)[-1].rsplit("/",1)[-1].rsplit(":",1)[-1] or str(uri)
     identifiers = sorted(classes|set(endpoints),key=str)
     labels = {u:local(u) for u in identifiers}
-    counts = list(labels.values())
-    labels = {u:(v if counts.count(v)==1 else str(u)) for u,v in labels.items()}
+    counts = Counter(labels.values())
+    labels = {u:(v if counts[v]==1 else str(u)) for u,v in labels.items()}
     onto = dict(version="uploaded",classes={labels[u]:str(graph.value(u,RDFS.label) or labels[u]) for u in sorted(classes,key=str)},
         predicates={labels[p]:[labels[x] for x in ends] for p,ends in endpoints.items()},uris={v:str(u) for u,v in labels.items()},
         subclasses=[[labels[c],labels[p]] for c,p in hierarchy],rdf_source=graph.serialize(format="turtle"))

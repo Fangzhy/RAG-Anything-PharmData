@@ -1,4 +1,5 @@
 import asyncio
+import hashlib
 import json
 import re
 
@@ -16,14 +17,14 @@ class Utf8Tokenizer:
         return bytes(tokens).decode("utf-8", errors="replace")
 
 
-def engine(folder, llm=completion):
+def engine(folder, llm=completion, *, workspace=""):
     from lightrag import LightRAG
     from lightrag.utils import EmbeddingFunc, Tokenizer
 
     async def embed(texts, **kwargs):
         return await asyncio.to_thread(encode_text, texts)
 
-    return LightRAG(working_dir=str(folder), llm_model_func=llm, enable_llm_cache=False,
+    return LightRAG(working_dir=str(folder), workspace=workspace, llm_model_func=llm, enable_llm_cache=False,
         tokenizer=Tokenizer("utf8", Utf8Tokenizer()),
         embedding_func=EmbeddingFunc(embedding_dim=384, max_token_size=256, func=embed))
 
@@ -79,7 +80,8 @@ async def build_graph(catalog, chunks, db, online=False, ontology=None):
 async def project_graph(graph, folder):
     if not graph["nodes"]:
         return
-    rag = engine(folder)
+    namespace = hashlib.sha256(str(folder.resolve()).encode()).hexdigest()[:16]
+    rag = engine(folder,workspace=namespace)
     await rag.initialize_storages()
     edges = graph["edges"]
     refs = {node:e["id"] for e in edges for node in (e["src"],e["tgt"])}

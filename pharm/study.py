@@ -74,7 +74,7 @@ def merge_edits(previous,generated):
 
 
 def process_inputs(root,raw,schema,ontology,*,embed=False,previous=None,online=False):
-    folder = root/("study-"+uuid.uuid4().hex)
+    folder = root/("study-"+uuid.uuid4().hex[:12])
     folder.mkdir(parents=True)
     catalog = load_json(raw/"catalog.json")
     save_json(folder/"input.json",{"raw":str(raw)})
@@ -108,7 +108,7 @@ def publish_graph(folder,graph,ontology):
 def save_graph(root,previous,graph):
     _,ontology = contracts(previous)
     validate_graph(graph,ontology)
-    folder = root/("study-"+uuid.uuid4().hex)
+    folder = root/("study-"+uuid.uuid4().hex[:12])
     shutil.copytree(previous,folder,ignore=shutil.ignore_patterns("lightrag"))
     if not (folder/"base_graph.json").exists():
         shutil.copyfile(previous/"graph.json",folder/"base_graph.json")

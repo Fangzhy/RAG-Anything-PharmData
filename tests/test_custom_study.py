@@ -1,5 +1,6 @@
 import json
 from contextlib import closing
+from unittest.mock import patch
 
 from rdflib import Graph
 from streamlit.testing.v1 import AppTest
@@ -74,3 +75,29 @@ def test_processing_contract_controls():
     next(b for b in page.button if b.label=="Run pipeline to apply schema and ontology").click().run()
     assert not page.exception and not page.error
     assert not next(b for b in page.button if b.label=="Run pipeline to apply parse and embed").disabled
+
+
+def test_reopen_local_study_and_use_it_on_all_retrieval_pages(tmp_path):
+    with patch("pharm.workspace.DATA",tmp_path), patch("pharm.workspace.local_app",return_value=True):
+        page=AppTest.from_file(DATA.parent/"app.py",default_timeout=90).run()
+        content=b"id,batch,sample,test,value,unit,method,time_min,timestamp\nX1,Lot-X,S-X,Dissolution,62,%,D30,30,2026-03-01T08:00:00Z\n"
+        page.file_uploader[0].upload("lims.csv",content).run()
+        page.button(key="explore-load").click().run()
+        page.sidebar.radio[0].set_value("Process data").run()
+        next(b for b in page.button if b.label=="Use demo schema").click().run()
+        next(b for b in page.button if b.label=="Use demo ontology").click().run()
+        next(b for b in page.button if b.label=="Run pipeline to apply schema and ontology").click().run()
+        assert not page.error and not page.exception
+        resumed=AppTest.from_file(DATA.parent/"app.py",default_timeout=90)
+        resumed.query_params.update(page.query_params)
+        resumed.run()
+        assert resumed.session_state.study_build==page.session_state.study_build
+        for route in ("Search evidence","Ask a question","Compare answers"):
+            resumed.sidebar.radio[0].set_value(route).run()
+            assert not resumed.exception
+            assert resumed.selectbox[0].options==["All batches","Lot-X"]
+            if route=="Search evidence":
+                resumed.radio[0].set_value("SQL")
+                resumed.text_input[0].set_value("low dissolution")
+                next(b for b in resumed.button if b.label=="Search").click().run()
+                assert [r["id"] for r in resumed.session_state.search_result[1]]==["SQL-X1"]

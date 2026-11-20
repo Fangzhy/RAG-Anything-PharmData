@@ -7,7 +7,7 @@ import streamlit as st
 from pharm.catalog import DOCS, load_json, save_json
 from pharm.contracts import DEMO, export_rdf, import_ontology, validate_ontology, validate_schema
 from pharm.study import contracts, save_graph
-from pharm.workspace import home
+from pharm.workspace import home, persist
 
 
 def diagram(nodes,edges):
@@ -36,6 +36,7 @@ def keyed(rows,key,value):
 
 def store_contract(kind,value):
     save_json(home()/(kind+".json"),value)
+    persist()
     st.session_state[kind+"_revision"] = st.session_state.get(kind+"_revision",0)+1
 
 

@@ -4,6 +4,7 @@ import hashlib
 import io
 import shutil
 import uuid
+from urllib.parse import urlsplit
 from pathlib import Path
 
 import streamlit as st
@@ -20,6 +21,46 @@ def home():
     if "study_workspace" not in st.session_state:
         st.session_state.study_workspace = DATA/"workspaces"/uuid.uuid4().hex
     return st.session_state.study_workspace
+
+
+def restore_workspace():
+    """Only a loopback app accepts local resume links; hosted sessions stay separate."""
+    if "study_workspace" in st.session_state or not local_app():
+        return
+    token = st.query_params.get("study","")
+    if len(token)!=32 or any(c not in "0123456789abcdef" for c in token):
+        return
+    root = DATA/"workspaces"/token
+    state = root/"selection.json"
+    if not state.exists():
+        return
+    selection = load_json(state)
+    st.session_state.study_workspace = root
+    for key,path in selection.items():
+        if key not in ("raw_selection","study_build"):
+            continue
+        if key=="raw_selection" and path=="demo":
+            st.session_state[key] = RAW
+        elif Path(path).name==path and (root/path).is_dir():
+            st.session_state[key] = root/path
+
+
+def local_app():
+    return urlsplit(st.context.url or "").hostname in {"localhost","127.0.0.1","::1"}
+
+
+def persist():
+    root = home()
+    selection = {}
+    for key in ("raw_selection","study_build"):
+        path = st.session_state.get(key)
+        if path is not None:
+            selection[key] = "demo" if path==RAW else path.name
+    temporary = root/(uuid.uuid4().hex+".tmp")
+    save_json(temporary,selection)
+    temporary.replace(root/"selection.json")
+    if local_app() and st.query_params.get("study")!=root.name:
+        st.query_params["study"] = root.name
 
 
 def invalidate():
@@ -39,11 +80,13 @@ def current_build():
 def select_build(folder):
     invalidate()
     st.session_state.study_build = folder
+    persist()
 
 
 def set_raw(path):
     invalidate()
     st.session_state.raw_selection = path
+    persist()
 
 
 def demo_button(prefix,container=st):

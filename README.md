@@ -34,7 +34,7 @@ Expand **Preprocess data from raw files**, load the demo contracts or upload you
 
 The ontology editor accepts app JSON, Turtle, N-Triples, and OWL serialized as RDF/XML or Turtle. It exposes named classes, named subclass relationships, and object predicates with domain and range. Use the extraction bindings table to connect lab relationships such as `hasResult` to your ontology. Download the JSON to reuse both the ontology and its mappings, or export Turtle for RDF tools. The app uses explicit mappings and does not run an OWL reasoner.
 
-**Run pipeline to apply schema and ontology** builds the validation ledger, SQLite tables, and typed graph. **Run pipeline to apply parse and embed** processes the selected reports and image pixels and adds document-derived evidence. The knowledge graph supports editing nodes and edges, validating their types, and saving a new graph for retrieval. Browser-session builds and uploaded originals are stored under the ignored `data/workspaces/` directory.
+**Run pipeline to apply schema and ontology** builds the validation ledger, SQLite tables, and typed graph. **Run pipeline to apply parse and embed** processes the selected reports and image pixels and adds document-derived evidence. The knowledge graph supports editing nodes and edges, validating their types, and saving a new graph for retrieval. Builds and uploaded originals are stored under the ignored `data/workspaces/` directory. On localhost, bookmark the study URL after saving to reopen the selection and edits. On a hosted instance each browser session has its own workspace. Search, Ask, and Compare use the selected build and offer the held-out tablet photo through **Use demo image**.
 
 ## Regenerate and test
 
