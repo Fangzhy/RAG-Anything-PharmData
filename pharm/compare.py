@@ -2,7 +2,7 @@ import streamlit as st
 
 from pharm.answers import Investigation, answer
 from pharm.ask import render
-from pharm.prepare import active
+from pharm.workspace import current_build
 from pharm.retrieval import OPENING, SOURCES
 from pharm.search import inputs
 
@@ -22,14 +22,18 @@ def evidence_sets(panels):
 def show():
     st.title("Compare answers")
     st.write("Run one investigation against two source selections. Inspect the citations to see what each selection contributes.")
-    request = Investigation(*inputs("compare",OPENING))
+    folder = current_build()
+    if folder is None:
+        st.info("Apply a schema and ontology on Process data to compare this study.")
+        return
+    request = Investigation(*inputs("compare",OPENING,folder,demo_image=True))
     left,right = st.columns(2)
     first = left.multiselect("Left sources",SOURCES,default=["SQL"])
     second = right.multiselect("Right sources",SOURCES,default=SOURCES)
     ready = bool(first and second and (request.question or request.image or request.batch))
     if st.button("Run comparison",type="primary",disabled=not ready):
         with st.spinner("Running both evidence selections…"):
-            st.session_state.comparison = compare(active(),request,first,second)
+            st.session_state.comparison = compare(folder,request,first,second)
     if "comparison" not in st.session_state:
         return
     run = st.session_state.comparison
@@ -51,4 +55,4 @@ def show():
                     panels[i] = answer(run["folder"],original,result["sources"],records=result["records"])
                     st.session_state.comparison = run
                 st.rerun()
-            render(result,f"compare-{i}")
+            render(result,f"compare-{i}",run["folder"])
