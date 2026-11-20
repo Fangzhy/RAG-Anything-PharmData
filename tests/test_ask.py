@@ -41,8 +41,10 @@ def test_ask_page():
         page = AppTest.from_file(DATA.parent/"app.py", default_timeout=60).run()
         page.sidebar.radio[0].set_value("Ask a question").run()
         page.multiselect[0].set_value(["SQL"])
-        page.button[0].click().run()
+        page.button(key="ask-demo-image").click().run()
+        assert page.session_state["ask-demo-selected"]
+        next(b for b in page.button if b.label=="Generate answer").click().run()
         assert not page.exception and not page.warning
         assert page.session_state.ask_result["claims"][0]["citations"][0].startswith("SQL-")
         page.multiselect[0].set_value([]).run()
-        assert page.button[0].disabled
+        assert next(b for b in page.button if b.label=="Generate answer").disabled
