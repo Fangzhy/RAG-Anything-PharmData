@@ -69,7 +69,7 @@ def display_items(items, prefix, folder=None):
 
 
 def show():
-    st.title("Search evidence")
+    st.title("Search data")
     source = st.radio("Search source",["Vector","SQL","Graph"],horizontal=True)
     folder = current_build()
     if folder is None:

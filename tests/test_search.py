@@ -27,7 +27,7 @@ def test_structured_paths():
 
 def test_search_page():
     page = AppTest.from_file(DATA.parent/"app.py",default_timeout=60).run()
-    page.sidebar.radio[0].set_value("Search evidence").run()
+    page.sidebar.radio[0].set_value("Search data").run()
     page.radio[0].set_value("SQL")
     page.text_input[0].set_value("low dissolution")
     next(b for b in page.button if b.label=="Search").click().run()
@@ -41,7 +41,7 @@ def test_search_page():
 
 def test_demo_photo_search_control():
     page = AppTest.from_file(DATA.parent/"app.py",default_timeout=90).run()
-    page.sidebar.radio[0].set_value("Search evidence").run()
+    page.sidebar.radio[0].set_value("Search data").run()
     page.text_input[0].set_value("")
     page.button(key="search-demo-image").click().run()
     next(b for b in page.button if b.label=="Search").click().run()
