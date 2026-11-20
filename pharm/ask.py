@@ -1,9 +1,8 @@
 import streamlit as st
 
-from pharm.answers import Investigation, answer
-from pharm.workspace import current_build
-from pharm.retrieval import OPENING, SOURCES
-from pharm.search import display_items, inputs
+from pharm.answers import answer
+from pharm.retrieval import SOURCES
+from pharm.search import display_items
 
 
 def render(result, prefix, folder=None):
@@ -19,14 +18,16 @@ def render(result, prefix, folder=None):
     display_items(result["records"],prefix,folder)
 
 
-def show():
-    st.title("Ask a question")
-    folder = current_build()
-    if folder is None:
-        st.info("Apply a schema and ontology on Preprocess data to investigate this study.")
-        return
-    request = Investigation(*inputs("ask",OPENING,folder,demo_image=True))
-    sources = st.multiselect("Retrieval sources",SOURCES,default=SOURCES)
+def select_sources(container, label, default):
+    # Streamlit removes hidden widgets. Keep selections when switching modes.
+    selections = st.session_state.setdefault("source_selections", {})
+    selected = container.multiselect(label, SOURCES, default=selections.get(label, default), key=f"sources-{label}")
+    selections[label] = selected
+    return selected
+
+
+def show_chat(folder, request):
+    sources = select_sources(st, "Retrieval sources", SOURCES)
     if st.button("Generate answer",type="primary",disabled=not sources or not (request.question or request.image or request.batch)):
         st.session_state.pop("ask_result",None)
         with st.spinner("Retrieving and checking cited evidence…"):

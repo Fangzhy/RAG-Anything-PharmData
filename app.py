@@ -7,7 +7,7 @@ from pharm.workspace import restore_workspace
 
 restore_workspace()
 st.sidebar.title("Chat With Pharma Data")
-page = st.sidebar.radio("Workspace", ["Explore data", "Preprocess data", "Search data", "Ask a question", "Compare answers"])
+page = st.sidebar.radio("Workspace", ["Explore data", "Preprocess data", "Search data", "Chat & Compare"])
 if page == "Explore data":
     explore.show()
 elif page == "Preprocess data":
@@ -16,9 +16,6 @@ elif page == "Preprocess data":
 elif page == "Search data":
     from pharm import search
     search.show()
-elif page == "Ask a question":
-    from pharm import ask
-    ask.show()
-elif page == "Compare answers":
+elif page == "Chat & Compare":
     from pharm import compare
     compare.show()

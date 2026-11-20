@@ -1,7 +1,7 @@
 import streamlit as st
 
 from pharm.answers import Investigation, answer
-from pharm.ask import render
+from pharm.ask import render, select_sources, show_chat
 from pharm.workspace import current_build
 from pharm.retrieval import OPENING, SOURCES
 from pharm.search import inputs
@@ -20,16 +20,20 @@ def evidence_sets(panels):
 
 
 def show():
-    st.title("Compare answers")
-    st.write("Run one investigation against two source selections. Inspect the citations to see what each selection contributes.")
+    st.title("Chat & Compare")
     folder = current_build()
     if folder is None:
-        st.info("Apply a schema and ontology on Preprocess data to compare this study.")
+        st.info("Apply a schema and ontology on Preprocess data to investigate this study.")
         return
     request = Investigation(*inputs("compare",OPENING,folder,demo_image=True))
-    left,right = st.columns(2)
-    first = left.multiselect("Left sources",SOURCES,default=["SQL"])
-    second = right.multiselect("Right sources",SOURCES,default=SOURCES)
+    comparison_mode = st.toggle("Chat & Compare", help="Off runs Chat with one source selection. On compares two selections side by side.")
+    if not comparison_mode:
+        show_chat(folder, request)
+        return
+
+    left, right = st.columns(2)
+    first = select_sources(left, "Left sources", ["SQL"])
+    second = select_sources(right, "Right sources", SOURCES)
     ready = bool(first and second and (request.question or request.image or request.batch))
     if st.button("Run comparison",type="primary",disabled=not ready):
         with st.spinner("Running both evidence selections…"):

@@ -39,12 +39,22 @@ def test_lightrag_synthesis():
 def test_ask_page():
     with patch("pharm.answers.completion", cited_response),patch("pharm.answers.settings",return_value=("demo","test-model")):
         page = AppTest.from_file(DATA.parent/"app.py", default_timeout=60).run()
-        page.sidebar.radio[0].set_value("Ask a question").run()
+        page.sidebar.radio[0].set_value("Chat & Compare").run()
+        assert page.sidebar.title[0].value == "Chat With Pharma Data"
+        assert page.sidebar.radio[0].options == ["Explore data", "Preprocess data", "Search data", "Chat & Compare"]
+        assert not page.toggle[0].value
+        assert [s.label for s in page.multiselect] == ["Retrieval sources"]
         page.multiselect[0].set_value(["SQL"])
-        page.button(key="ask-demo-image").click().run()
-        assert page.session_state["ask-demo-selected"]
+        page.button(key="compare-demo-image").click().run()
+        assert page.session_state["compare-demo-selected"]
         next(b for b in page.button if b.label=="Generate answer").click().run()
         assert not page.exception and not page.warning
         assert page.session_state.ask_result["claims"][0]["citations"][0].startswith("SQL-")
+        page.toggle[0].set_value(True).run()
+        assert [s.label for s in page.multiselect] == ["Left sources", "Right sources"]
+        assert page.session_state["compare-demo-selected"]
+        page.toggle[0].set_value(False).run()
+        assert page.multiselect[0].value == ["SQL"]
+        assert not page.exception
         page.multiselect[0].set_value([]).run()
         assert next(b for b in page.button if b.label=="Generate answer").disabled

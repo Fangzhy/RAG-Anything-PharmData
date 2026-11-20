@@ -92,7 +92,7 @@ def test_reopen_local_study_and_use_it_on_all_retrieval_pages(tmp_path):
         resumed.query_params.update(page.query_params)
         resumed.run()
         assert resumed.session_state.study_build==page.session_state.study_build
-        for route in ("Search data","Ask a question","Compare answers"):
+        for route in ("Search data","Chat & Compare"):
             resumed.sidebar.radio[0].set_value(route).run()
             assert not resumed.exception
             assert resumed.selectbox[0].options==["All batches","Lot-X"]

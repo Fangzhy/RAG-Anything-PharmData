@@ -43,7 +43,12 @@ def test_page_preserves_success_and_retries_failed_side():
 
     with patch("pharm.answers.completion",fail_once),patch("pharm.answers.settings",return_value=("test","free-model")):
         page = AppTest.from_file(DATA.parent/"app.py",default_timeout=90).run()
-        page.sidebar.radio[0].set_value("Compare answers").run()
+        page.sidebar.radio[0].set_value("Chat & Compare").run()
+        question = "Which batches had low dissolution and chipped tablets?"
+        page.text_input[0].set_value(question)
+        page.toggle[0].set_value(True).run()
+        assert page.text_input[0].value == question
+        assert [s.label for s in page.multiselect] == ["Left sources", "Right sources"]
         page.button(key="compare-demo-image").click().run()
         next(b for b in page.button if b.label=="Run comparison").click().run()
         assert page.session_state.comparison["request"].image==(DATA/"evaluation/query-chipped.png").read_bytes()
