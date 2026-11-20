@@ -1,0 +1,17 @@
+--find-links https://download.pytorch.org/whl/cpu/torch/
+--find-links https://download.pytorch.org/whl/cpu/torchvision/
+torch==2.15.0+cpu ; sys_platform == "linux"
+torchvision==0.29.2+cpu ; sys_platform == "linux"
+torch==2.15.0 ; sys_platform != "linux"
+torchvision==0.29.2 ; sys_platform != "linux"
+streamlit==1.67.0
+pandas>=2.2,<4
+pillow>=10,<14
+sentence-transformers==6.3.0
+open-clip-torch==4.2.2
+lightrag-hku==1.5.7
+rdflib==7.6.0
+docling==2.151.1
+python-dotenv==1.2.4
+httpx==0.28.1
+numpy>=1.26,<3

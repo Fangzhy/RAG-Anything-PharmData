@@ -1,0 +1,10 @@
+data/** -text
+*.py text eol=lf
+*.json text eol=lf
+data/**/reports/*.pdf binary
+data/**/reports/*.docx binary
+data/**/*.png binary
+*.sqlite binary
+*.npz binary
+data/**/*.csv -text
+data/**/*.json -text

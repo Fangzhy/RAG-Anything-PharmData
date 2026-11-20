@@ -1,0 +1,3172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d10" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d9" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d8" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d7" for="edge" attr.name="description" attr.type="string"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="B-001">
+  <data key="d0">B-001</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-001</data>
+  <data key="d3">chunk-522478781f85159aa4098cb290b458bf</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-001-A">
+  <data key="d0">S-001-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-001-A</data>
+  <data key="d3">chunk-13f5d56a1e7ffa0f52ae25642db77071</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-001-A">
+  <data key="d0">IMG-S-001-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-001-A</data>
+  <data key="d3">chunk-a7e4cce004eb01fd430eba15d0f68797</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-001-B">
+  <data key="d0">S-001-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-001-B</data>
+  <data key="d3">chunk-3876c71062c3857cee202829f203bd9c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-001-B">
+  <data key="d0">IMG-S-001-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-001-B</data>
+  <data key="d3">chunk-9f8c040b8330fef425f3d07b53ded93a</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-002">
+  <data key="d0">B-002</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-002</data>
+  <data key="d3">chunk-6f9352ada1ebce92205b1fd4d58d3823</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-002-A">
+  <data key="d0">S-002-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-002-A</data>
+  <data key="d3">chunk-2777ddcf97b9974f66e95ed1417e3ea2</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-002-A">
+  <data key="d0">IMG-S-002-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-002-A</data>
+  <data key="d3">chunk-730c4f6ed609756ab2cb2f3b47640973</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-002-B">
+  <data key="d0">S-002-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-002-B</data>
+  <data key="d3">chunk-8d1d0545480b2102e4a9e91ea4b0df9b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-002-B">
+  <data key="d0">IMG-S-002-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-002-B</data>
+  <data key="d3">chunk-2394519ecdbd0be8345dd8a8e0e0b7ae</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-003">
+  <data key="d0">B-003</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-003</data>
+  <data key="d3">chunk-cce8201f8dfa5b8b5b1a266d1521a936</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-003-A">
+  <data key="d0">S-003-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-003-A</data>
+  <data key="d3">chunk-6183d10731fecfeb09d68cb4aea5d755</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-003-A">
+  <data key="d0">IMG-S-003-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-003-A</data>
+  <data key="d3">chunk-41af4f11abb6e0e5a223dc863019a9fb</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-003-B">
+  <data key="d0">S-003-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-003-B</data>
+  <data key="d3">chunk-61cdd78b357b52f9a1c8dcb7bc287f30</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-003-B">
+  <data key="d0">IMG-S-003-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-003-B</data>
+  <data key="d3">chunk-7cf8f441d25701bc8667e1b3067e3c18</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-004">
+  <data key="d0">B-004</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-004</data>
+  <data key="d3">chunk-3c018e7f773088163eb90e2ab9e37649</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-004-A">
+  <data key="d0">S-004-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-004-A</data>
+  <data key="d3">chunk-60bcb54376d50b85969c8965e959b329</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-004-A">
+  <data key="d0">IMG-S-004-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-004-A</data>
+  <data key="d3">chunk-9b889e4adbc9312a4d4e115037e0a43e</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-004-B">
+  <data key="d0">S-004-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-004-B</data>
+  <data key="d3">chunk-75fd6586560cde090c3f9b0a8afba74e</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-004-B">
+  <data key="d0">IMG-S-004-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-004-B</data>
+  <data key="d3">chunk-77e55260ad17f4860666dfe168b9b8a9</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-005">
+  <data key="d0">B-005</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-005</data>
+  <data key="d3">chunk-2eb048497d7c2e4b5b5a2d057f71a288</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-005-A">
+  <data key="d0">S-005-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-005-A</data>
+  <data key="d3">chunk-491d7842416b0629a08b72e9945c53c6</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-005-A">
+  <data key="d0">IMG-S-005-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-005-A</data>
+  <data key="d3">chunk-4f70d59dc57e76327ca9c94e302794fd</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-005-B">
+  <data key="d0">S-005-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-005-B</data>
+  <data key="d3">chunk-22ee4cf18b90fb5d10aae89d35087822</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-005-B">
+  <data key="d0">IMG-S-005-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-005-B</data>
+  <data key="d3">chunk-3248102d8096e70b09cc1c5c49d133bb</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-006">
+  <data key="d0">B-006</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-006</data>
+  <data key="d3">chunk-a1948eef1da952d79aa2dbee515e03e0</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-006-A">
+  <data key="d0">S-006-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-006-A</data>
+  <data key="d3">chunk-29dac3e3bdfba2996403644bc0b4f10c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-006-A">
+  <data key="d0">IMG-S-006-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-006-A</data>
+  <data key="d3">chunk-4364ecaac02e20d8c0eebf2d12d1ebee</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-006-B">
+  <data key="d0">S-006-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-006-B</data>
+  <data key="d3">chunk-7fc3c68d5835f9421734e557c6fb3c3c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-006-B">
+  <data key="d0">IMG-S-006-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-006-B</data>
+  <data key="d3">chunk-47afdb69c0fffa3dae191ff7c5b1e370</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-007">
+  <data key="d0">B-007</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-007</data>
+  <data key="d3">chunk-f6e8e83e56b0c21eb7b6532267dfbf54</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-007-A">
+  <data key="d0">S-007-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-007-A</data>
+  <data key="d3">chunk-ff97f897c714d8bc076a48ff0dabefc3</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-007-A">
+  <data key="d0">IMG-S-007-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-007-A</data>
+  <data key="d3">chunk-4af34bc3c551a6f38fc2cc281d200852</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-007-B">
+  <data key="d0">S-007-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-007-B</data>
+  <data key="d3">chunk-cdb3f0b855809747036f0a1cc0d3eaa8</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-007-B">
+  <data key="d0">IMG-S-007-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-007-B</data>
+  <data key="d3">chunk-bdf33ff06e1c8c5b761ef216f7314d7c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-008">
+  <data key="d0">B-008</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-008</data>
+  <data key="d3">chunk-12ef20a69dbf00786804c28c77eee2a2</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-008-A">
+  <data key="d0">S-008-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-008-A</data>
+  <data key="d3">chunk-ed830e8d12bac99454933ca7db01aa21</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-008-A">
+  <data key="d0">IMG-S-008-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-008-A</data>
+  <data key="d3">chunk-f9b6e14efe0c584dff6b5c2d3f2da969</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-008-B">
+  <data key="d0">S-008-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-008-B</data>
+  <data key="d3">chunk-e4689e114acc41a3a186f6e9a5a3a371</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-008-B">
+  <data key="d0">IMG-S-008-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-008-B</data>
+  <data key="d3">chunk-c8b1ada9ba05733e43634e266ebd0af8</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-009">
+  <data key="d0">B-009</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-009</data>
+  <data key="d3">chunk-549724deb7bdaf118124495a02b5d2c0</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-009-A">
+  <data key="d0">S-009-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-009-A</data>
+  <data key="d3">chunk-8e8040b9897ccd0905d236a5084d06ad</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-009-A">
+  <data key="d0">IMG-S-009-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-009-A</data>
+  <data key="d3">chunk-4ff47c9f3713030b2f639364c1b96035</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-009-B">
+  <data key="d0">S-009-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-009-B</data>
+  <data key="d3">chunk-bf8d3f9df9014de04c9d304eb9f56cfd</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-009-B">
+  <data key="d0">IMG-S-009-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-009-B</data>
+  <data key="d3">chunk-906c740c8e12f768208d6a8a4fe3a7fe</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-010">
+  <data key="d0">B-010</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-010</data>
+  <data key="d3">chunk-1c1e553efe46e187befb333e5e552fc5</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-010-A">
+  <data key="d0">S-010-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-010-A</data>
+  <data key="d3">chunk-74a66aea0f3e04020ac414dca048015b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-010-A">
+  <data key="d0">IMG-S-010-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-010-A</data>
+  <data key="d3">chunk-c063083188fda0e41f8454098582f75f</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-010-B">
+  <data key="d0">S-010-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-010-B</data>
+  <data key="d3">chunk-33cc2b7eadcf4309771a9e77224d290e</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-010-B">
+  <data key="d0">IMG-S-010-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-010-B</data>
+  <data key="d3">chunk-7d28d7302eede0d94a3b4e071efa8324</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-011">
+  <data key="d0">B-011</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-011</data>
+  <data key="d3">chunk-9659bd46d7d190afb0d329da62e7ccfb</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-011-A">
+  <data key="d0">S-011-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-011-A</data>
+  <data key="d3">chunk-a77f6888f9009936df5cff38fa20018d</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-011-A">
+  <data key="d0">IMG-S-011-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-011-A</data>
+  <data key="d3">chunk-bd26590c066dbc34a34056a71a8ddf1d</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-011-B">
+  <data key="d0">S-011-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-011-B</data>
+  <data key="d3">chunk-7d8d2b5bde466601c77dfb202416970f</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-011-B">
+  <data key="d0">IMG-S-011-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-011-B</data>
+  <data key="d3">chunk-44e18570b2ebb1bebabaa412bec99dcf</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-012">
+  <data key="d0">B-012</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-012</data>
+  <data key="d3">chunk-7d90b5f54b2f1fccee7421806f56130a</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-012-A">
+  <data key="d0">S-012-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-012-A</data>
+  <data key="d3">chunk-ca5e59eaf86565d50f100b2716997479</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-012-A">
+  <data key="d0">IMG-S-012-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-012-A</data>
+  <data key="d3">chunk-7c9c8e6ffc82ef7e9bd34eb51feb9718</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-012-B">
+  <data key="d0">S-012-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-012-B</data>
+  <data key="d3">chunk-226fe587d6f90c3a33d339b66d55bb31</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-012-B">
+  <data key="d0">IMG-S-012-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-012-B</data>
+  <data key="d3">chunk-e4a7b0fbfde11efac259b68551fb30ea</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-013">
+  <data key="d0">B-013</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-013</data>
+  <data key="d3">chunk-53a2680d15efc3a4ae07ea6463f67596</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-013-A">
+  <data key="d0">S-013-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-013-A</data>
+  <data key="d3">chunk-8ca7186da5a9c6ed8cd7de422bc5f1db</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-013-A">
+  <data key="d0">IMG-S-013-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-013-A</data>
+  <data key="d3">chunk-00cef53f6ee03f7cb6fc20908446e5f0</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-013-B">
+  <data key="d0">S-013-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-013-B</data>
+  <data key="d3">chunk-66944270797d1f7e2a50d448e0935207</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-013-B">
+  <data key="d0">IMG-S-013-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-013-B</data>
+  <data key="d3">chunk-71483d3c1053495a6678c2092ed0c813</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-014">
+  <data key="d0">B-014</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-014</data>
+  <data key="d3">chunk-ebf880b8b6d3ea6add1d09d68980885b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-014-A">
+  <data key="d0">S-014-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-014-A</data>
+  <data key="d3">chunk-f2bf4c828b42108bd7870a46639238aa</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-014-A">
+  <data key="d0">IMG-S-014-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-014-A</data>
+  <data key="d3">chunk-3e9fb0e90b82efe79b881d6677ca58e4</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-014-B">
+  <data key="d0">S-014-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-014-B</data>
+  <data key="d3">chunk-7b1a41bd6ad43ef3129d9ab351e42fc9</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-014-B">
+  <data key="d0">IMG-S-014-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-014-B</data>
+  <data key="d3">chunk-ceb1415fcecc23b28f2c512ed7f8e102</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-015">
+  <data key="d0">B-015</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-015</data>
+  <data key="d3">chunk-5f853a6dee17c529a3db97bc87656815</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-015-A">
+  <data key="d0">S-015-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-015-A</data>
+  <data key="d3">chunk-3722c99e6bbdc53c604bc715cab957de</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-015-A">
+  <data key="d0">IMG-S-015-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-015-A</data>
+  <data key="d3">chunk-cd021de3bbeed59b27ba06260ba70ed6</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-015-B">
+  <data key="d0">S-015-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-015-B</data>
+  <data key="d3">chunk-d3100cc3af2009f02ef5a909be9ee072</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-015-B">
+  <data key="d0">IMG-S-015-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-015-B</data>
+  <data key="d3">chunk-54152e375966060f36cdf77c1328f5ec</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-016">
+  <data key="d0">B-016</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-016</data>
+  <data key="d3">chunk-78d3f145e6224edc30c0b854de6526aa</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-016-A">
+  <data key="d0">S-016-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-016-A</data>
+  <data key="d3">chunk-0051801360ad578b1f7febfb04054c11</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-016-A">
+  <data key="d0">IMG-S-016-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-016-A</data>
+  <data key="d3">chunk-94512ecbcc3c0be459d8f25676116b41</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-016-B">
+  <data key="d0">S-016-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-016-B</data>
+  <data key="d3">chunk-181f4f108a3d3ae6b791ac5bb041765b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-016-B">
+  <data key="d0">IMG-S-016-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-016-B</data>
+  <data key="d3">chunk-bc9f5ecf42bf7468d96e70debde1af1d</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-017">
+  <data key="d0">B-017</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-017</data>
+  <data key="d3">chunk-e91a8d15c770602652b0b1754f713273</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-017-A">
+  <data key="d0">S-017-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-017-A</data>
+  <data key="d3">chunk-84598ed65db4530d05fa0ce0f10f2560</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-017-A">
+  <data key="d0">IMG-S-017-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-017-A</data>
+  <data key="d3">chunk-b5f4d2116a4a326765b330f4ad3f80e8</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-017-B">
+  <data key="d0">S-017-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-017-B</data>
+  <data key="d3">chunk-840f49fb50d8fd997f9bdd26e759c9e9</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-017-B">
+  <data key="d0">IMG-S-017-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-017-B</data>
+  <data key="d3">chunk-926b16f2e06c6a3c0cd590b18a868f78</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-018">
+  <data key="d0">B-018</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-018</data>
+  <data key="d3">chunk-2a77ac4bb75eeda44486024d86537445</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-018-A">
+  <data key="d0">S-018-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-018-A</data>
+  <data key="d3">chunk-0f3a3baff22d05a92b640180f4b9e01c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-018-A">
+  <data key="d0">IMG-S-018-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-018-A</data>
+  <data key="d3">chunk-ee0d7225ca50fe3508122c8d229c57ca</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-018-B">
+  <data key="d0">S-018-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-018-B</data>
+  <data key="d3">chunk-07d8da24e0e40cd7bc72ae2cc1e50f40</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-018-B">
+  <data key="d0">IMG-S-018-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-018-B</data>
+  <data key="d3">chunk-03ccc434e3022beb57ec7301e354782d</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-019">
+  <data key="d0">B-019</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-019</data>
+  <data key="d3">chunk-7b2c8237cf8d6ee6ce780b63e98b3f3a</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-019-A">
+  <data key="d0">S-019-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-019-A</data>
+  <data key="d3">chunk-712167dfcc125e0c1618353d190faab8</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-019-A">
+  <data key="d0">IMG-S-019-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-019-A</data>
+  <data key="d3">chunk-93aeec6983e450b3c8296ccbc2efe10c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-019-B">
+  <data key="d0">S-019-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-019-B</data>
+  <data key="d3">chunk-e3447ea7a803f2ff0f0e77fbf751868c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-019-B">
+  <data key="d0">IMG-S-019-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-019-B</data>
+  <data key="d3">chunk-384144cc73f6ac796d8ceb74c4ab17f7</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="B-020">
+  <data key="d0">B-020</data>
+  <data key="d1">Batch</data>
+  <data key="d2">B-020</data>
+  <data key="d3">chunk-aaed00f1edeeffd9f77704789aa73d50</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-020-A">
+  <data key="d0">S-020-A</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-020-A</data>
+  <data key="d3">chunk-3ca734191939c1da761d2b02a9e04f57</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-020-A">
+  <data key="d0">IMG-S-020-A</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-020-A</data>
+  <data key="d3">chunk-43eb3a250739a8a59e641b3777c9fbf4</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-020-B">
+  <data key="d0">S-020-B</data>
+  <data key="d1">Sample</data>
+  <data key="d2">S-020-B</data>
+  <data key="d3">chunk-661567460d50f32df01a12f18b19d8f0</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="IMG-S-020-B">
+  <data key="d0">IMG-S-020-B</data>
+  <data key="d1">InspectionImage</data>
+  <data key="d2">IMG-S-020-B</data>
+  <data key="d3">chunk-9b17406ed378074ffc5dc32922219c5f</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-001-A-A01">
+  <data key="d0">S-001-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-001-A-A01</data>
+  <data key="d3">chunk-851c92a51c5804f465f7b145fab8f463</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-001-A-D30">
+  <data key="d0">S-001-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-001-A-D30</data>
+  <data key="d3">chunk-64df22081573c964d2bc6a1b84d74741</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-001-B-A01">
+  <data key="d0">S-001-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-001-B-A01</data>
+  <data key="d3">chunk-202fae809b00cac7d03f40f583668f2e</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-001-B-D30">
+  <data key="d0">S-001-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-001-B-D30</data>
+  <data key="d3">chunk-3876c71062c3857cee202829f203bd9c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-002-A-A01">
+  <data key="d0">S-002-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-002-A-A01</data>
+  <data key="d3">chunk-a72f7e2b02eac6eefe47c10501a69717</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-002-A-D30">
+  <data key="d0">S-002-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-002-A-D30</data>
+  <data key="d3">chunk-06684df9cb01021e235c9354eebb2650</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-002-B-A01">
+  <data key="d0">S-002-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-002-B-A01</data>
+  <data key="d3">chunk-2de953124087ec156d1cb546eb4bd77f</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-002-B-D30">
+  <data key="d0">S-002-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-002-B-D30</data>
+  <data key="d3">chunk-8d1d0545480b2102e4a9e91ea4b0df9b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-003-A-A01">
+  <data key="d0">S-003-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-003-A-A01</data>
+  <data key="d3">chunk-9d750c70070c1c9f43431bd08db79c95</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-003-A-D30">
+  <data key="d0">S-003-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-003-A-D30</data>
+  <data key="d3">chunk-c790dfb3475c1a3905ad7ff2d0bd42ba</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-003-B-A01">
+  <data key="d0">S-003-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-003-B-A01</data>
+  <data key="d3">chunk-91b30bb5fe092a6634b94123decaa48f</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-003-B-D30">
+  <data key="d0">S-003-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-003-B-D30</data>
+  <data key="d3">chunk-61cdd78b357b52f9a1c8dcb7bc287f30</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-004-A-A01">
+  <data key="d0">S-004-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-004-A-A01</data>
+  <data key="d3">chunk-1508d05204c33d7f0bd9c75c5ac79f37</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-004-A-D30">
+  <data key="d0">S-004-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-004-A-D30</data>
+  <data key="d3">chunk-ba033c14dc0b2b329b382e0384e356f9</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-004-B-A01">
+  <data key="d0">S-004-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-004-B-A01</data>
+  <data key="d3">chunk-a8b814df8a165213b09cc93536da8614</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-004-B-D30">
+  <data key="d0">S-004-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-004-B-D30</data>
+  <data key="d3">chunk-75fd6586560cde090c3f9b0a8afba74e</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-005-A-A01">
+  <data key="d0">S-005-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-005-A-A01</data>
+  <data key="d3">chunk-a0e370ed7c019ead53955920a0af67c9</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-005-A-D30">
+  <data key="d0">S-005-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-005-A-D30</data>
+  <data key="d3">chunk-6c5ea87d353eb9058a1a76e764214117</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-005-B-A01">
+  <data key="d0">S-005-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-005-B-A01</data>
+  <data key="d3">chunk-4db8adc748e58c2be239c7c7cd0ab6ca</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-005-B-D30">
+  <data key="d0">S-005-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-005-B-D30</data>
+  <data key="d3">chunk-22ee4cf18b90fb5d10aae89d35087822</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-006-A-A01">
+  <data key="d0">S-006-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-006-A-A01</data>
+  <data key="d3">chunk-bb56e177420150d0f810be24e918f921</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-006-A-D30">
+  <data key="d0">S-006-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-006-A-D30</data>
+  <data key="d3">chunk-51f5f6b06c5793af0a03089936727d8a</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-006-B-A01">
+  <data key="d0">S-006-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-006-B-A01</data>
+  <data key="d3">chunk-f0a358ecbd6720c1dbf329fdbe93870b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-006-B-D30">
+  <data key="d0">S-006-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-006-B-D30</data>
+  <data key="d3">chunk-7fc3c68d5835f9421734e557c6fb3c3c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-007-A-A01">
+  <data key="d0">S-007-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-007-A-A01</data>
+  <data key="d3">chunk-d32cc964948b8bd36222b2b22fc7d1d6</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-007-A-D30">
+  <data key="d0">S-007-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-007-A-D30</data>
+  <data key="d3">chunk-ff97f897c714d8bc076a48ff0dabefc3</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-007-B-A01">
+  <data key="d0">S-007-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-007-B-A01</data>
+  <data key="d3">chunk-623389d8001b98d74db9834cc45a888d</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-007-B-D30">
+  <data key="d0">S-007-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-007-B-D30</data>
+  <data key="d3">chunk-cdb3f0b855809747036f0a1cc0d3eaa8</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-008-A-A01">
+  <data key="d0">S-008-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-008-A-A01</data>
+  <data key="d3">chunk-a2efe164550a40a2dfa10fb73105f081</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-008-A-D30">
+  <data key="d0">S-008-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-008-A-D30</data>
+  <data key="d3">chunk-ed830e8d12bac99454933ca7db01aa21</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-008-B-A01">
+  <data key="d0">S-008-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-008-B-A01</data>
+  <data key="d3">chunk-855a7633e1bab6fd792358b2a2cd78f0</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-008-B-D30">
+  <data key="d0">S-008-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-008-B-D30</data>
+  <data key="d3">chunk-e4689e114acc41a3a186f6e9a5a3a371</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-009-A-A01">
+  <data key="d0">S-009-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-009-A-A01</data>
+  <data key="d3">chunk-f4492cead5db992e3523f9946761f603</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-009-A-D30">
+  <data key="d0">S-009-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-009-A-D30</data>
+  <data key="d3">chunk-8e8040b9897ccd0905d236a5084d06ad</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-009-B-A01">
+  <data key="d0">S-009-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-009-B-A01</data>
+  <data key="d3">chunk-608656c121f354de39fc83df83e9cfe6</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-009-B-D30">
+  <data key="d0">S-009-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-009-B-D30</data>
+  <data key="d3">chunk-bf8d3f9df9014de04c9d304eb9f56cfd</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-010-A-A01">
+  <data key="d0">S-010-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-010-A-A01</data>
+  <data key="d3">chunk-685c4851a6b5934330c0d8a0715348bb</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-010-A-D30">
+  <data key="d0">S-010-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-010-A-D30</data>
+  <data key="d3">chunk-74a66aea0f3e04020ac414dca048015b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-010-B-A01">
+  <data key="d0">S-010-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-010-B-A01</data>
+  <data key="d3">chunk-0528200846c270e20c973a4882f94e2a</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-010-B-D30">
+  <data key="d0">S-010-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-010-B-D30</data>
+  <data key="d3">chunk-33cc2b7eadcf4309771a9e77224d290e</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-011-A-A01">
+  <data key="d0">S-011-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-011-A-A01</data>
+  <data key="d3">chunk-a77f6888f9009936df5cff38fa20018d</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-011-B-A01">
+  <data key="d0">S-011-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-011-B-A01</data>
+  <data key="d3">chunk-8e3e8e34d7c6efb1654de62ae73375e2</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-011-B-D30">
+  <data key="d0">S-011-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-011-B-D30</data>
+  <data key="d3">chunk-7d8d2b5bde466601c77dfb202416970f</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-012-A-A01">
+  <data key="d0">S-012-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-012-A-A01</data>
+  <data key="d3">chunk-d1eac271135361d83155201e3003d41d</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-012-A-D30">
+  <data key="d0">S-012-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-012-A-D30</data>
+  <data key="d3">chunk-ca5e59eaf86565d50f100b2716997479</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-012-B-A01">
+  <data key="d0">S-012-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-012-B-A01</data>
+  <data key="d3">chunk-0e19c050580503d3123852d7baca691a</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-012-B-D30">
+  <data key="d0">S-012-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-012-B-D30</data>
+  <data key="d3">chunk-226fe587d6f90c3a33d339b66d55bb31</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-013-A-A01">
+  <data key="d0">S-013-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-013-A-A01</data>
+  <data key="d3">chunk-1987e5642b586f14484d6c19487dd3a6</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-013-A-D30">
+  <data key="d0">S-013-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-013-A-D30</data>
+  <data key="d3">chunk-8ca7186da5a9c6ed8cd7de422bc5f1db</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-013-B-A01">
+  <data key="d0">S-013-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-013-B-A01</data>
+  <data key="d3">chunk-66944270797d1f7e2a50d448e0935207</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-014-A-A01">
+  <data key="d0">S-014-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-014-A-A01</data>
+  <data key="d3">chunk-48e9f81b0c8e945f7686800cdba1f74b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-014-A-D30">
+  <data key="d0">S-014-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-014-A-D30</data>
+  <data key="d3">chunk-f2bf4c828b42108bd7870a46639238aa</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-014-B-A01">
+  <data key="d0">S-014-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-014-B-A01</data>
+  <data key="d3">chunk-ebbdb3e95e3a19d6ab64872c480eb109</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-014-B-D30">
+  <data key="d0">S-014-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-014-B-D30</data>
+  <data key="d3">chunk-7b1a41bd6ad43ef3129d9ab351e42fc9</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-015-A-A01">
+  <data key="d0">S-015-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-015-A-A01</data>
+  <data key="d3">chunk-90320852cfbd9e35d2f89256df270691</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-015-A-D30">
+  <data key="d0">S-015-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-015-A-D30</data>
+  <data key="d3">chunk-3722c99e6bbdc53c604bc715cab957de</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-015-B-A01">
+  <data key="d0">S-015-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-015-B-A01</data>
+  <data key="d3">chunk-5d1544bc4ddde8a97af2f041f03436e7</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-015-B-D30">
+  <data key="d0">S-015-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-015-B-D30</data>
+  <data key="d3">chunk-d3100cc3af2009f02ef5a909be9ee072</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-016-A-A01">
+  <data key="d0">S-016-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-016-A-A01</data>
+  <data key="d3">chunk-d25ee5b23ec6031e873ea995bd053771</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-016-A-D30">
+  <data key="d0">S-016-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-016-A-D30</data>
+  <data key="d3">chunk-0051801360ad578b1f7febfb04054c11</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-016-B-A01">
+  <data key="d0">S-016-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-016-B-A01</data>
+  <data key="d3">chunk-7570bf871f49375b8da6a261d2c64218</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-016-B-D30">
+  <data key="d0">S-016-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-016-B-D30</data>
+  <data key="d3">chunk-181f4f108a3d3ae6b791ac5bb041765b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-017-A-A01">
+  <data key="d0">S-017-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-017-A-A01</data>
+  <data key="d3">chunk-6e559d41cd93a492c3c6e25117eb19c3</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-017-A-D30">
+  <data key="d0">S-017-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-017-A-D30</data>
+  <data key="d3">chunk-84598ed65db4530d05fa0ce0f10f2560</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-017-B-A01">
+  <data key="d0">S-017-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-017-B-A01</data>
+  <data key="d3">chunk-cfc1a91b4590aa8819cc38e469a30717</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-017-B-D30">
+  <data key="d0">S-017-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-017-B-D30</data>
+  <data key="d3">chunk-840f49fb50d8fd997f9bdd26e759c9e9</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-018-A-A01">
+  <data key="d0">S-018-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-018-A-A01</data>
+  <data key="d3">chunk-0f3a3baff22d05a92b640180f4b9e01c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-018-B-A01">
+  <data key="d0">S-018-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-018-B-A01</data>
+  <data key="d3">chunk-cd04b5426a643d8dbcc5d44cfca6cd68</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-018-B-D30">
+  <data key="d0">S-018-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-018-B-D30</data>
+  <data key="d3">chunk-07d8da24e0e40cd7bc72ae2cc1e50f40</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-019-A-A01">
+  <data key="d0">S-019-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-019-A-A01</data>
+  <data key="d3">chunk-f75ced566a09df32fb897b85ab37bbdd</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-019-A-D30">
+  <data key="d0">S-019-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-019-A-D30</data>
+  <data key="d3">chunk-712167dfcc125e0c1618353d190faab8</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-019-B-A01">
+  <data key="d0">S-019-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-019-B-A01</data>
+  <data key="d3">chunk-43060eb830986816548517f940b5227e</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-019-B-D30">
+  <data key="d0">S-019-B-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-019-B-D30</data>
+  <data key="d3">chunk-e3447ea7a803f2ff0f0e77fbf751868c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-020-A-A01">
+  <data key="d0">S-020-A-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-020-A-A01</data>
+  <data key="d3">chunk-cd7b32b62cb53d68009cbad47f92e021</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-020-A-D30">
+  <data key="d0">S-020-A-D30</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-020-A-D30</data>
+  <data key="d3">chunk-3ca734191939c1da761d2b02a9e04f57</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="S-020-B-A01">
+  <data key="d0">S-020-B-A01</data>
+  <data key="d1">TestResult</data>
+  <data key="d2">S-020-B-A01</data>
+  <data key="d3">chunk-661567460d50f32df01a12f18b19d8f0</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-001">
+  <data key="d0">RUN-001</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-001</data>
+  <data key="d3">chunk-522478781f85159aa4098cb290b458bf</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-002">
+  <data key="d0">RUN-002</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-002</data>
+  <data key="d3">chunk-6f9352ada1ebce92205b1fd4d58d3823</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-004">
+  <data key="d0">RUN-004</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-004</data>
+  <data key="d3">chunk-3c018e7f773088163eb90e2ab9e37649</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-005">
+  <data key="d0">RUN-005</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-005</data>
+  <data key="d3">chunk-2eb048497d7c2e4b5b5a2d057f71a288</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-006">
+  <data key="d0">RUN-006</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-006</data>
+  <data key="d3">chunk-a1948eef1da952d79aa2dbee515e03e0</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-007">
+  <data key="d0">RUN-007</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-007</data>
+  <data key="d3">chunk-f6e8e83e56b0c21eb7b6532267dfbf54</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-008">
+  <data key="d0">RUN-008</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-008</data>
+  <data key="d3">chunk-12ef20a69dbf00786804c28c77eee2a2</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-009">
+  <data key="d0">RUN-009</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-009</data>
+  <data key="d3">chunk-549724deb7bdaf118124495a02b5d2c0</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-010">
+  <data key="d0">RUN-010</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-010</data>
+  <data key="d3">chunk-1c1e553efe46e187befb333e5e552fc5</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-011">
+  <data key="d0">RUN-011</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-011</data>
+  <data key="d3">chunk-9659bd46d7d190afb0d329da62e7ccfb</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-012">
+  <data key="d0">RUN-012</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-012</data>
+  <data key="d3">chunk-7d90b5f54b2f1fccee7421806f56130a</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-013">
+  <data key="d0">RUN-013</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-013</data>
+  <data key="d3">chunk-53a2680d15efc3a4ae07ea6463f67596</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-014">
+  <data key="d0">RUN-014</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-014</data>
+  <data key="d3">chunk-ebf880b8b6d3ea6add1d09d68980885b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-015">
+  <data key="d0">RUN-015</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-015</data>
+  <data key="d3">chunk-5f853a6dee17c529a3db97bc87656815</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-016">
+  <data key="d0">RUN-016</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-016</data>
+  <data key="d3">chunk-78d3f145e6224edc30c0b854de6526aa</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-017">
+  <data key="d0">RUN-017</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-017</data>
+  <data key="d3">chunk-e91a8d15c770602652b0b1754f713273</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-018">
+  <data key="d0">RUN-018</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-018</data>
+  <data key="d3">chunk-2a77ac4bb75eeda44486024d86537445</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-019">
+  <data key="d0">RUN-019</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-019</data>
+  <data key="d3">chunk-7b2c8237cf8d6ee6ce780b63e98b3f3a</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="RUN-020">
+  <data key="d0">RUN-020</data>
+  <data key="d1">ProcessRun</data>
+  <data key="d2">RUN-020</data>
+  <data key="d3">chunk-aaed00f1edeeffd9f77704789aa73d50</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="DOC-B-001">
+  <data key="d0">DOC-B-001</data>
+  <data key="d1">Document</data>
+  <data key="d2">DOC-B-001</data>
+  <data key="d3">chunk-64c9e4587cf60c36ebaac95ace175395</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="OBS-C-003">
+  <data key="d0">OBS-C-003</data>
+  <data key="d1">Observation</data>
+  <data key="d2">OBS-C-003</data>
+  <data key="d3">chunk-13f5d56a1e7ffa0f52ae25642db77071</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="DOC-B-002">
+  <data key="d0">DOC-B-002</data>
+  <data key="d1">Document</data>
+  <data key="d2">DOC-B-002</data>
+  <data key="d3">chunk-2777ddcf97b9974f66e95ed1417e3ea2</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="OBS-C-008">
+  <data key="d0">OBS-C-008</data>
+  <data key="d1">Observation</data>
+  <data key="d2">OBS-C-008</data>
+  <data key="d3">chunk-e271eaf070d513f06a6e691c762f6626</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="DOC-B-003">
+  <data key="d0">DOC-B-003</data>
+  <data key="d1">Document</data>
+  <data key="d2">DOC-B-003</data>
+  <data key="d3">chunk-f8459436876697bf553f4dee212cf0a6</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="OBS-C-014">
+  <data key="d0">OBS-C-014</data>
+  <data key="d1">Observation</data>
+  <data key="d2">OBS-C-014</data>
+  <data key="d3">chunk-6183d10731fecfeb09d68cb4aea5d755</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="DOC-B-004">
+  <data key="d0">DOC-B-004</data>
+  <data key="d1">Document</data>
+  <data key="d2">DOC-B-004</data>
+  <data key="d3">chunk-60bcb54376d50b85969c8965e959b329</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="OBS-C-019">
+  <data key="d0">OBS-C-019</data>
+  <data key="d1">Observation</data>
+  <data key="d2">OBS-C-019</data>
+  <data key="d3">chunk-4242242f297f21ee0f759ab497bd172b</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="DOC-B-005">
+  <data key="d0">DOC-B-005</data>
+  <data key="d1">Document</data>
+  <data key="d2">DOC-B-005</data>
+  <data key="d3">chunk-d2a994086e71220e1e60f87bb99a7618</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="OBS-C-025">
+  <data key="d0">OBS-C-025</data>
+  <data key="d1">Observation</data>
+  <data key="d2">OBS-C-025</data>
+  <data key="d3">chunk-491d7842416b0629a08b72e9945c53c6</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="DOC-B-006">
+  <data key="d0">DOC-B-006</data>
+  <data key="d1">Document</data>
+  <data key="d2">DOC-B-006</data>
+  <data key="d3">chunk-29dac3e3bdfba2996403644bc0b4f10c</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<node id="OBS-C-030">
+  <data key="d0">OBS-C-030</data>
+  <data key="d1">Observation</data>
+  <data key="d2">OBS-C-030</data>
+  <data key="d3">chunk-2ee1d7aee17ac04ca2aa933ca271548d</data>
+  <data key="d4">custom_kg</data>
+  <data key="d5">1795104651</data>
+</node>
+<edge source="B-001" target="S-001-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-001-A belongs to B-001.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-65fcbcc998c530144ede9f528b038d93</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-001" target="S-001-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-001-B belongs to B-001.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-487b72f5cebfbabea4377cbb9b1d21a8</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-001" target="RUN-001">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a chipped tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-522478781f85159aa4098cb290b458bf</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-001-A" target="IMG-S-001-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a chipped tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-a7e4cce004eb01fd430eba15d0f68797</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-001-A" target="S-001-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-001-A has a Assay result recorded as S-001-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-851c92a51c5804f465f7b145fab8f463</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-001-A" target="S-001-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-001-A has a Dissolution result recorded as S-001-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-64df22081573c964d2bc6a1b84d74741</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-001-A" target="DOC-B-001">
+  <data key="d6">1.0</data>
+  <data key="d7">Sample S-001-A was collected during RUN-001.</data>
+  <data key="d8">documents</data>
+  <data key="d9">chunk-64c9e4587cf60c36ebaac95ace175395</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-001-A" target="OBS-C-003">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a chipped tablet surface.</data>
+  <data key="d8">hasObservation</data>
+  <data key="d9">chunk-13f5d56a1e7ffa0f52ae25642db77071</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-001-B" target="IMG-S-001-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a chipped tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-9f8c040b8330fef425f3d07b53ded93a</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-001-B" target="S-001-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-001-B has a Assay result recorded as S-001-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-202fae809b00cac7d03f40f583668f2e</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-001-B" target="S-001-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-001-B has a Dissolution result recorded as S-001-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-3876c71062c3857cee202829f203bd9c</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-002" target="S-002-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-002-A belongs to B-002.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-5fd0d8d9ea9a14dab7c6161c6e666b87</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-002" target="S-002-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-002-B belongs to B-002.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-96213a4e1fe287434ee3b96fc85432a5</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-002" target="RUN-002">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a chipped tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-6f9352ada1ebce92205b1fd4d58d3823</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-002-A" target="IMG-S-002-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a chipped tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-730c4f6ed609756ab2cb2f3b47640973</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-002-A" target="S-002-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-002-A has a Assay result recorded as S-002-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-a72f7e2b02eac6eefe47c10501a69717</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-002-A" target="S-002-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-002-A has a Dissolution result recorded as S-002-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-06684df9cb01021e235c9354eebb2650</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-002-A" target="OBS-C-008">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a chipped tablet surface.</data>
+  <data key="d8">hasObservation</data>
+  <data key="d9">chunk-e271eaf070d513f06a6e691c762f6626</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-002-A" target="DOC-B-002">
+  <data key="d6">1.0</data>
+  <data key="d7">| Sample   | Appearance   |
+|----------|--------------|
+| S-002-A  | chipped      |</data>
+  <data key="d8">documents</data>
+  <data key="d9">chunk-2777ddcf97b9974f66e95ed1417e3ea2</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-002-B" target="IMG-S-002-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a chipped tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-2394519ecdbd0be8345dd8a8e0e0b7ae</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-002-B" target="S-002-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-002-B has a Assay result recorded as S-002-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-2de953124087ec156d1cb546eb4bd77f</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-002-B" target="S-002-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-002-B has a Dissolution result recorded as S-002-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-8d1d0545480b2102e4a9e91ea4b0df9b</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-003" target="S-003-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-003-A belongs to B-003.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-2a968b961e7233ea6d714f4f63849d7b</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-003" target="S-003-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-003-B belongs to B-003.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-cce8201f8dfa5b8b5b1a266d1521a936</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-003-A" target="IMG-S-003-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-41af4f11abb6e0e5a223dc863019a9fb</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-003-A" target="S-003-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-003-A has a Assay result recorded as S-003-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-9d750c70070c1c9f43431bd08db79c95</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-003-A" target="S-003-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-003-A has a Dissolution result recorded as S-003-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-c790dfb3475c1a3905ad7ff2d0bd42ba</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-003-A" target="DOC-B-003">
+  <data key="d6">1.0</data>
+  <data key="d7">Sample S-003-A was collected during RUN-003.</data>
+  <data key="d8">documents</data>
+  <data key="d9">chunk-f8459436876697bf553f4dee212cf0a6</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-003-A" target="OBS-C-014">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">hasObservation</data>
+  <data key="d9">chunk-6183d10731fecfeb09d68cb4aea5d755</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-003-B" target="IMG-S-003-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-7cf8f441d25701bc8667e1b3067e3c18</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-003-B" target="S-003-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-003-B has a Assay result recorded as S-003-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-91b30bb5fe092a6634b94123decaa48f</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-003-B" target="S-003-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-003-B has a Dissolution result recorded as S-003-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-61cdd78b357b52f9a1c8dcb7bc287f30</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-004" target="S-004-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-004-A belongs to B-004.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-3a176eeac1ae0026dbe538bf42bf7208</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-004" target="S-004-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-004-B belongs to B-004.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-28b2b4bfebf6afd3264617c1fb52eaa0</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-004" target="RUN-004">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-3c018e7f773088163eb90e2ab9e37649</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-004-A" target="IMG-S-004-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-9b889e4adbc9312a4d4e115037e0a43e</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-004-A" target="S-004-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-004-A has a Assay result recorded as S-004-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-1508d05204c33d7f0bd9c75c5ac79f37</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-004-A" target="S-004-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-004-A has a Dissolution result recorded as S-004-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-ba033c14dc0b2b329b382e0384e356f9</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-004-A" target="OBS-C-019">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">hasObservation</data>
+  <data key="d9">chunk-4242242f297f21ee0f759ab497bd172b</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-004-A" target="DOC-B-004">
+  <data key="d6">1.0</data>
+  <data key="d7">| Sample   | Appearance   |
+|----------|--------------|
+| S-004-A  | mottled      |</data>
+  <data key="d8">documents</data>
+  <data key="d9">chunk-60bcb54376d50b85969c8965e959b329</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-004-B" target="IMG-S-004-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-77e55260ad17f4860666dfe168b9b8a9</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-004-B" target="S-004-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-004-B has a Assay result recorded as S-004-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-a8b814df8a165213b09cc93536da8614</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-004-B" target="S-004-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-004-B has a Dissolution result recorded as S-004-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-75fd6586560cde090c3f9b0a8afba74e</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-005" target="S-005-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-005-A belongs to B-005.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-3675cd944a4b667a33c99c92d3cf9d05</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-005" target="S-005-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-005-B belongs to B-005.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-922a2e4707a1a04759ac99124c3f52ff</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-005" target="RUN-005">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-2eb048497d7c2e4b5b5a2d057f71a288</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-005-A" target="IMG-S-005-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-4f70d59dc57e76327ca9c94e302794fd</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-005-A" target="S-005-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-005-A has a Assay result recorded as S-005-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-a0e370ed7c019ead53955920a0af67c9</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-005-A" target="S-005-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-005-A has a Dissolution result recorded as S-005-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-6c5ea87d353eb9058a1a76e764214117</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-005-A" target="DOC-B-005">
+  <data key="d6">1.0</data>
+  <data key="d7">Sample S-005-A was collected during RUN-005.</data>
+  <data key="d8">documents</data>
+  <data key="d9">chunk-d2a994086e71220e1e60f87bb99a7618</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-005-A" target="OBS-C-025">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">hasObservation</data>
+  <data key="d9">chunk-491d7842416b0629a08b72e9945c53c6</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-005-B" target="IMG-S-005-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-3248102d8096e70b09cc1c5c49d133bb</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-005-B" target="S-005-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-005-B has a Assay result recorded as S-005-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-4db8adc748e58c2be239c7c7cd0ab6ca</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-005-B" target="S-005-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-005-B has a Dissolution result recorded as S-005-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-22ee4cf18b90fb5d10aae89d35087822</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-006" target="S-006-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-006-A belongs to B-006.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-f9f3841407fdf69de75fa9e4de0a0a77</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-006" target="S-006-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-006-B belongs to B-006.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-add3567a05f1c38374ccf71f7cc78ec8</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-006" target="RUN-006">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-a1948eef1da952d79aa2dbee515e03e0</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-006-A" target="IMG-S-006-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-4364ecaac02e20d8c0eebf2d12d1ebee</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-006-A" target="S-006-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-006-A has a Assay result recorded as S-006-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-bb56e177420150d0f810be24e918f921</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-006-A" target="S-006-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-006-A has a Dissolution result recorded as S-006-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-51f5f6b06c5793af0a03089936727d8a</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-006-A" target="OBS-C-030">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">hasObservation</data>
+  <data key="d9">chunk-2ee1d7aee17ac04ca2aa933ca271548d</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-006-A" target="DOC-B-006">
+  <data key="d6">1.0</data>
+  <data key="d7">| Sample   | Appearance   |
+|----------|--------------|
+| S-006-A  | intact       |</data>
+  <data key="d8">documents</data>
+  <data key="d9">chunk-29dac3e3bdfba2996403644bc0b4f10c</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-006-B" target="IMG-S-006-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-47afdb69c0fffa3dae191ff7c5b1e370</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-006-B" target="S-006-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-006-B has a Assay result recorded as S-006-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-f0a358ecbd6720c1dbf329fdbe93870b</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-006-B" target="S-006-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-006-B has a Dissolution result recorded as S-006-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-7fc3c68d5835f9421734e557c6fb3c3c</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-007" target="S-007-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-007-A belongs to B-007.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-a49b696e0c3e90c9454b93e58d26ed08</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-007" target="S-007-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-007-B belongs to B-007.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-d263ca7ce01a94b3d178eb67e93ef66c</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-007" target="RUN-007">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-f6e8e83e56b0c21eb7b6532267dfbf54</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-007-A" target="IMG-S-007-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-4af34bc3c551a6f38fc2cc281d200852</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-007-A" target="S-007-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-007-A has a Assay result recorded as S-007-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-d32cc964948b8bd36222b2b22fc7d1d6</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-007-A" target="S-007-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-007-A has a Dissolution result recorded as S-007-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-ff97f897c714d8bc076a48ff0dabefc3</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-007-B" target="IMG-S-007-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-bdf33ff06e1c8c5b761ef216f7314d7c</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-007-B" target="S-007-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-007-B has a Assay result recorded as S-007-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-623389d8001b98d74db9834cc45a888d</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-007-B" target="S-007-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-007-B has a Dissolution result recorded as S-007-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-cdb3f0b855809747036f0a1cc0d3eaa8</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-008" target="S-008-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-008-A belongs to B-008.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-7fba12040520c27ad1817ed1841e9402</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-008" target="S-008-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-008-B belongs to B-008.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-f61d04ec2592eaca4ee58c0cb508ae55</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-008" target="RUN-008">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-12ef20a69dbf00786804c28c77eee2a2</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-008-A" target="IMG-S-008-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-f9b6e14efe0c584dff6b5c2d3f2da969</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-008-A" target="S-008-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-008-A has a Assay result recorded as S-008-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-a2efe164550a40a2dfa10fb73105f081</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-008-A" target="S-008-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-008-A has a Dissolution result recorded as S-008-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-ed830e8d12bac99454933ca7db01aa21</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-008-B" target="IMG-S-008-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-c8b1ada9ba05733e43634e266ebd0af8</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-008-B" target="S-008-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-008-B has a Assay result recorded as S-008-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-855a7633e1bab6fd792358b2a2cd78f0</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-008-B" target="S-008-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-008-B has a Dissolution result recorded as S-008-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-e4689e114acc41a3a186f6e9a5a3a371</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-009" target="S-009-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-009-A belongs to B-009.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-7e3f1d949a21776bcea6c6443e70545a</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-009" target="S-009-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-009-B belongs to B-009.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-6336c02aff90047082b08eec7026fbc2</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-009" target="RUN-009">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-549724deb7bdaf118124495a02b5d2c0</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-009-A" target="IMG-S-009-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-4ff47c9f3713030b2f639364c1b96035</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-009-A" target="S-009-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-009-A has a Assay result recorded as S-009-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-f4492cead5db992e3523f9946761f603</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-009-A" target="S-009-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-009-A has a Dissolution result recorded as S-009-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-8e8040b9897ccd0905d236a5084d06ad</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-009-B" target="IMG-S-009-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-906c740c8e12f768208d6a8a4fe3a7fe</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-009-B" target="S-009-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-009-B has a Assay result recorded as S-009-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-608656c121f354de39fc83df83e9cfe6</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-009-B" target="S-009-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-009-B has a Dissolution result recorded as S-009-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-bf8d3f9df9014de04c9d304eb9f56cfd</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-010" target="S-010-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-010-A belongs to B-010.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-f5a0f97c575ed582236e32f4c31b4145</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-010" target="S-010-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-010-B belongs to B-010.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-c0b6c4cb95a40292321ad1be1822ca46</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-010" target="RUN-010">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-1c1e553efe46e187befb333e5e552fc5</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-010-A" target="IMG-S-010-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-c063083188fda0e41f8454098582f75f</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-010-A" target="S-010-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-010-A has a Assay result recorded as S-010-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-685c4851a6b5934330c0d8a0715348bb</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-010-A" target="S-010-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-010-A has a Dissolution result recorded as S-010-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-74a66aea0f3e04020ac414dca048015b</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-010-B" target="IMG-S-010-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-7d28d7302eede0d94a3b4e071efa8324</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-010-B" target="S-010-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-010-B has a Assay result recorded as S-010-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-0528200846c270e20c973a4882f94e2a</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-010-B" target="S-010-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-010-B has a Dissolution result recorded as S-010-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-33cc2b7eadcf4309771a9e77224d290e</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-011" target="S-011-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-011-A belongs to B-011.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-cdfc64307fe9eeb3c917103266bb6d83</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-011" target="S-011-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-011-B belongs to B-011.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-638796dc4cd99bf6cd03c6d1ace5d961</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-011" target="RUN-011">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-9659bd46d7d190afb0d329da62e7ccfb</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-011-A" target="IMG-S-011-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-bd26590c066dbc34a34056a71a8ddf1d</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-011-A" target="S-011-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-011-A has a Assay result recorded as S-011-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-a77f6888f9009936df5cff38fa20018d</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-011-B" target="IMG-S-011-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-44e18570b2ebb1bebabaa412bec99dcf</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-011-B" target="S-011-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-011-B has a Assay result recorded as S-011-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-8e3e8e34d7c6efb1654de62ae73375e2</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-011-B" target="S-011-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-011-B has a Dissolution result recorded as S-011-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-7d8d2b5bde466601c77dfb202416970f</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-012" target="S-012-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-012-A belongs to B-012.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-062de6fe446f1b3668bda8d8511239fa</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-012" target="S-012-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-012-B belongs to B-012.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-d5ea6382408b2e38fa9d3f4ba59164c7</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-012" target="RUN-012">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-7d90b5f54b2f1fccee7421806f56130a</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-012-A" target="IMG-S-012-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-7c9c8e6ffc82ef7e9bd34eb51feb9718</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-012-A" target="S-012-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-012-A has a Assay result recorded as S-012-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-d1eac271135361d83155201e3003d41d</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-012-A" target="S-012-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-012-A has a Dissolution result recorded as S-012-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-ca5e59eaf86565d50f100b2716997479</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-012-B" target="IMG-S-012-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-e4a7b0fbfde11efac259b68551fb30ea</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-012-B" target="S-012-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-012-B has a Assay result recorded as S-012-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-0e19c050580503d3123852d7baca691a</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-012-B" target="S-012-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-012-B has a Dissolution result recorded as S-012-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-226fe587d6f90c3a33d339b66d55bb31</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-013" target="S-013-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-013-A belongs to B-013.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-d56faad2449d18059aaa2c5e02f17a3b</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-013" target="S-013-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-013-B belongs to B-013.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-ae51f0840249f3f151e67259520e7b5b</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-013" target="RUN-013">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-53a2680d15efc3a4ae07ea6463f67596</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-013-A" target="IMG-S-013-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-00cef53f6ee03f7cb6fc20908446e5f0</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-013-A" target="S-013-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-013-A has a Assay result recorded as S-013-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-1987e5642b586f14484d6c19487dd3a6</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-013-A" target="S-013-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-013-A has a Dissolution result recorded as S-013-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-8ca7186da5a9c6ed8cd7de422bc5f1db</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-013-B" target="IMG-S-013-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-71483d3c1053495a6678c2092ed0c813</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-013-B" target="S-013-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-013-B has a Assay result recorded as S-013-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-66944270797d1f7e2a50d448e0935207</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-014" target="S-014-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-014-A belongs to B-014.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-d41ed6b0bdf6dfe26c73ce38b3f7c13f</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-014" target="S-014-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-014-B belongs to B-014.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-22d3070a17f8ce38f31aa055c76becf5</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-014" target="RUN-014">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-ebf880b8b6d3ea6add1d09d68980885b</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-014-A" target="IMG-S-014-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-3e9fb0e90b82efe79b881d6677ca58e4</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-014-A" target="S-014-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-014-A has a Assay result recorded as S-014-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-48e9f81b0c8e945f7686800cdba1f74b</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-014-A" target="S-014-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-014-A has a Dissolution result recorded as S-014-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-f2bf4c828b42108bd7870a46639238aa</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-014-B" target="IMG-S-014-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-ceb1415fcecc23b28f2c512ed7f8e102</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-014-B" target="S-014-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-014-B has a Assay result recorded as S-014-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-ebbdb3e95e3a19d6ab64872c480eb109</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-014-B" target="S-014-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-014-B has a Dissolution result recorded as S-014-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-7b1a41bd6ad43ef3129d9ab351e42fc9</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-015" target="S-015-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-015-A belongs to B-015.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-77df05d2a9731cf5103627e4f9583968</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-015" target="S-015-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-015-B belongs to B-015.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-e011f1fcb843cbce2066dab4eb7b11ed</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-015" target="RUN-015">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-5f853a6dee17c529a3db97bc87656815</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-015-A" target="IMG-S-015-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-cd021de3bbeed59b27ba06260ba70ed6</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-015-A" target="S-015-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-015-A has a Assay result recorded as S-015-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-90320852cfbd9e35d2f89256df270691</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-015-A" target="S-015-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-015-A has a Dissolution result recorded as S-015-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-3722c99e6bbdc53c604bc715cab957de</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-015-B" target="IMG-S-015-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-54152e375966060f36cdf77c1328f5ec</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-015-B" target="S-015-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-015-B has a Assay result recorded as S-015-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-5d1544bc4ddde8a97af2f041f03436e7</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-015-B" target="S-015-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-015-B has a Dissolution result recorded as S-015-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-d3100cc3af2009f02ef5a909be9ee072</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-016" target="S-016-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-016-A belongs to B-016.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-787c7754eb5acca41dee3d3a846d698a</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-016" target="S-016-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-016-B belongs to B-016.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-b7c302ffb00ff690e15ec025643639ea</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-016" target="RUN-016">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-78d3f145e6224edc30c0b854de6526aa</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-016-A" target="IMG-S-016-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-94512ecbcc3c0be459d8f25676116b41</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-016-A" target="S-016-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-016-A has a Assay result recorded as S-016-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-d25ee5b23ec6031e873ea995bd053771</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-016-A" target="S-016-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-016-A has a Dissolution result recorded as S-016-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-0051801360ad578b1f7febfb04054c11</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-016-B" target="IMG-S-016-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-bc9f5ecf42bf7468d96e70debde1af1d</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-016-B" target="S-016-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-016-B has a Assay result recorded as S-016-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-7570bf871f49375b8da6a261d2c64218</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-016-B" target="S-016-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-016-B has a Dissolution result recorded as S-016-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-181f4f108a3d3ae6b791ac5bb041765b</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-017" target="S-017-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-017-A belongs to B-017.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-8c9159da3d9a9f2896cb4c041f7a37e7</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-017" target="S-017-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-017-B belongs to B-017.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-009bc6e7155b5eebb23c0f7ecfabbdc4</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-017" target="RUN-017">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-e91a8d15c770602652b0b1754f713273</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-017-A" target="IMG-S-017-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-b5f4d2116a4a326765b330f4ad3f80e8</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-017-A" target="S-017-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-017-A has a Assay result recorded as S-017-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-6e559d41cd93a492c3c6e25117eb19c3</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-017-A" target="S-017-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-017-A has a Dissolution result recorded as S-017-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-84598ed65db4530d05fa0ce0f10f2560</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-017-B" target="IMG-S-017-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-926b16f2e06c6a3c0cd590b18a868f78</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-017-B" target="S-017-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-017-B has a Assay result recorded as S-017-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-cfc1a91b4590aa8819cc38e469a30717</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-017-B" target="S-017-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-017-B has a Dissolution result recorded as S-017-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-840f49fb50d8fd997f9bdd26e759c9e9</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-018" target="S-018-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-018-A belongs to B-018.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-0534156055ff7c61a930680f4693b110</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-018" target="S-018-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-018-B belongs to B-018.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-f9d942c702eb6db9481b2c8c6b3eac6e</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-018" target="RUN-018">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-2a77ac4bb75eeda44486024d86537445</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-018-A" target="IMG-S-018-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-ee0d7225ca50fe3508122c8d229c57ca</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-018-A" target="S-018-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-018-A has a Assay result recorded as S-018-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-0f3a3baff22d05a92b640180f4b9e01c</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-018-B" target="IMG-S-018-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-03ccc434e3022beb57ec7301e354782d</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-018-B" target="S-018-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-018-B has a Assay result recorded as S-018-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-cd04b5426a643d8dbcc5d44cfca6cd68</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-018-B" target="S-018-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-018-B has a Dissolution result recorded as S-018-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-07d8da24e0e40cd7bc72ae2cc1e50f40</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-019" target="S-019-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-019-A belongs to B-019.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-d9b62f5ebeffa1a84934d003d5668965</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-019" target="S-019-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-019-B belongs to B-019.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-c159f6a1a0fd25f1ecc4480bc30a1c78</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-019" target="RUN-019">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-7b2c8237cf8d6ee6ce780b63e98b3f3a</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-019-A" target="IMG-S-019-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-93aeec6983e450b3c8296ccbc2efe10c</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-019-A" target="S-019-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-019-A has a Assay result recorded as S-019-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-f75ced566a09df32fb897b85ab37bbdd</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-019-A" target="S-019-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-019-A has a Dissolution result recorded as S-019-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-712167dfcc125e0c1618353d190faab8</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-019-B" target="IMG-S-019-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a intact tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-384144cc73f6ac796d8ceb74c4ab17f7</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-019-B" target="S-019-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-019-B has a Assay result recorded as S-019-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-43060eb830986816548517f940b5227e</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-019-B" target="S-019-B-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-019-B has a Dissolution result recorded as S-019-B-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-e3447ea7a803f2ff0f0e77fbf751868c</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-020" target="S-020-A">
+  <data key="d6">1.0</data>
+  <data key="d7">S-020-A belongs to B-020.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-436aaf11f495eb89ee0d5f075fca1e78</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-020" target="S-020-B">
+  <data key="d6">1.0</data>
+  <data key="d7">S-020-B belongs to B-020.</data>
+  <data key="d8">hasSample</data>
+  <data key="d9">chunk-00c24db9ea6cd816d7bf80b2a5fade96</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="B-020" target="RUN-020">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">processes</data>
+  <data key="d9">chunk-aaed00f1edeeffd9f77704789aa73d50</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-020-A" target="IMG-S-020-A">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-43eb3a250739a8a59e641b3777c9fbf4</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-020-A" target="S-020-A-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-020-A has a Assay result recorded as S-020-A-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-cd7b32b62cb53d68009cbad47f92e021</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-020-A" target="S-020-A-D30">
+  <data key="d6">1.0</data>
+  <data key="d7">S-020-A has a Dissolution result recorded as S-020-A-D30.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-3ca734191939c1da761d2b02a9e04f57</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-020-B" target="IMG-S-020-B">
+  <data key="d6">1.0</data>
+  <data key="d7">Visual inspection recorded a mottled tablet surface.</data>
+  <data key="d8">depicts</data>
+  <data key="d9">chunk-9b17406ed378074ffc5dc32922219c5f</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+<edge source="S-020-B" target="S-020-B-A01">
+  <data key="d6">1.0</data>
+  <data key="d7">S-020-B has a Assay result recorded as S-020-B-A01.</data>
+  <data key="d8">hasResult</data>
+  <data key="d9">chunk-661567460d50f32df01a12f18b19d8f0</data>
+  <data key="d10">custom_kg</data>
+  <data key="d11">1795104651</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "eln": {"required": ["id", "batch", "run", "timestamp", "operator", "note"], "class": "Experiment"},
+  "lims": {"required": ["id", "batch", "sample", "test", "value", "unit", "method", "time_min", "timestamp"], "class": "TestResult", "units": {"Dissolution": "%", "Assay": "%"}},
+  "sensor": {"required": ["id", "batch", "run", "channel", "value", "unit", "timestamp", "equipment"], "class": "SensorReading", "units": {"Temperature": "Cel", "Press force": "kN"}},
+  "corrections": {"eln": {"field": "batch", "lookup": "catalog.batch_aliases"}, "lims": {"field": "unit", "aliases": {"percent": "%"}}, "sensor": {"field": "unit", "aliases": {"deg C": "Cel"}}},
+  "criteria": {"D30": {"method": "D30", "test": "Dissolution", "time_min": 30, "unit": "%", "lower_bound": 80, "description": "Fictional R&D screening criterion"}, "A01": {"method": "A01", "test": "Assay", "time_min": 0, "unit": "%"}}
+}

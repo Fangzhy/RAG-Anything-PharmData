@@ -1,0 +1,1416 @@
+{
+  "text": [
+    {
+      "id": "C-001",
+      "document": "DOC-B-001",
+      "kind": "passage",
+      "batch": "B-001",
+      "sample": "S-001-A",
+      "path": "reports/B-001.pdf",
+      "locator": "reports/B-001.pdf#page 1, #/texts/0",
+      "text": "Inspection report | B-001"
+    },
+    {
+      "id": "C-002",
+      "document": "DOC-B-001",
+      "kind": "passage",
+      "batch": "B-001",
+      "sample": "S-001-A",
+      "path": "reports/B-001.pdf",
+      "locator": "reports/B-001.pdf#page 1, #/texts/1",
+      "text": "Sample S-001-A was collected during RUN-001."
+    },
+    {
+      "id": "C-003",
+      "document": "DOC-B-001",
+      "kind": "passage",
+      "batch": "B-001",
+      "sample": "S-001-A",
+      "path": "reports/B-001.pdf",
+      "locator": "reports/B-001.pdf#page 1, #/texts/2",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "C-004",
+      "document": "DOC-B-001",
+      "kind": "passage",
+      "batch": "B-001",
+      "sample": "S-001-A",
+      "path": "reports/B-001.pdf",
+      "locator": "reports/B-001.pdf#page 1, #/texts/3",
+      "text": "A temperature excursion was recorded during this run."
+    },
+    {
+      "id": "C-005",
+      "document": "DOC-B-001",
+      "kind": "passage",
+      "batch": "B-001",
+      "sample": "S-001-A",
+      "path": "reports/B-001.pdf",
+      "locator": "reports/B-001.pdf#page 1, #/texts/4",
+      "text": "The inspection establishes appearance only."
+    },
+    {
+      "id": "C-006",
+      "document": "DOC-B-002",
+      "kind": "passage",
+      "batch": "B-002",
+      "sample": "S-002-A",
+      "path": "reports/B-002.docx",
+      "locator": "reports/B-002.docx##/texts/0",
+      "text": "Inspection report | B-002"
+    },
+    {
+      "id": "C-007",
+      "document": "DOC-B-002",
+      "kind": "passage",
+      "batch": "B-002",
+      "sample": "S-002-A",
+      "path": "reports/B-002.docx",
+      "locator": "reports/B-002.docx##/texts/1",
+      "text": "Sample S-002-A was collected during RUN-002."
+    },
+    {
+      "id": "C-008",
+      "document": "DOC-B-002",
+      "kind": "passage",
+      "batch": "B-002",
+      "sample": "S-002-A",
+      "path": "reports/B-002.docx",
+      "locator": "reports/B-002.docx##/texts/2",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "C-009",
+      "document": "DOC-B-002",
+      "kind": "passage",
+      "batch": "B-002",
+      "sample": "S-002-A",
+      "path": "reports/B-002.docx",
+      "locator": "reports/B-002.docx##/texts/3",
+      "text": "The observer recorded the appearance during routine sampling."
+    },
+    {
+      "id": "C-010",
+      "document": "DOC-B-002",
+      "kind": "passage",
+      "batch": "B-002",
+      "sample": "S-002-A",
+      "path": "reports/B-002.docx",
+      "locator": "reports/B-002.docx##/texts/4",
+      "text": "The inspection establishes appearance only."
+    },
+    {
+      "id": "C-011",
+      "document": "DOC-B-002",
+      "kind": "passage",
+      "batch": "B-002",
+      "sample": "S-002-A",
+      "path": "reports/B-002.docx",
+      "locator": "reports/B-002.docx##/tables/0",
+      "text": "| Sample   | Appearance   |\n|----------|--------------|\n| S-002-A  | chipped      |"
+    },
+    {
+      "id": "C-012",
+      "document": "DOC-B-003",
+      "kind": "passage",
+      "batch": "B-003",
+      "sample": "S-003-A",
+      "path": "reports/B-003.pdf",
+      "locator": "reports/B-003.pdf#page 1, #/texts/0",
+      "text": "Inspection report | B-003"
+    },
+    {
+      "id": "C-013",
+      "document": "DOC-B-003",
+      "kind": "passage",
+      "batch": "B-003",
+      "sample": "S-003-A",
+      "path": "reports/B-003.pdf",
+      "locator": "reports/B-003.pdf#page 1, #/texts/1",
+      "text": "Sample S-003-A was collected during RUN-003."
+    },
+    {
+      "id": "C-014",
+      "document": "DOC-B-003",
+      "kind": "passage",
+      "batch": "B-003",
+      "sample": "S-003-A",
+      "path": "reports/B-003.pdf",
+      "locator": "reports/B-003.pdf#page 1, #/texts/2",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "C-015",
+      "document": "DOC-B-003",
+      "kind": "passage",
+      "batch": "B-003",
+      "sample": "S-003-A",
+      "path": "reports/B-003.pdf",
+      "locator": "reports/B-003.pdf#page 1, #/texts/3",
+      "text": "The observer recorded the appearance during routine sampling."
+    },
+    {
+      "id": "C-016",
+      "document": "DOC-B-003",
+      "kind": "passage",
+      "batch": "B-003",
+      "sample": "S-003-A",
+      "path": "reports/B-003.pdf",
+      "locator": "reports/B-003.pdf#page 1, #/texts/4",
+      "text": "The inspection establishes appearance only."
+    },
+    {
+      "id": "C-017",
+      "document": "DOC-B-004",
+      "kind": "passage",
+      "batch": "B-004",
+      "sample": "S-004-A",
+      "path": "reports/B-004.docx",
+      "locator": "reports/B-004.docx##/texts/0",
+      "text": "Inspection report | B-004"
+    },
+    {
+      "id": "C-018",
+      "document": "DOC-B-004",
+      "kind": "passage",
+      "batch": "B-004",
+      "sample": "S-004-A",
+      "path": "reports/B-004.docx",
+      "locator": "reports/B-004.docx##/texts/1",
+      "text": "Sample S-004-A was collected during RUN-004."
+    },
+    {
+      "id": "C-019",
+      "document": "DOC-B-004",
+      "kind": "passage",
+      "batch": "B-004",
+      "sample": "S-004-A",
+      "path": "reports/B-004.docx",
+      "locator": "reports/B-004.docx##/texts/2",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "C-020",
+      "document": "DOC-B-004",
+      "kind": "passage",
+      "batch": "B-004",
+      "sample": "S-004-A",
+      "path": "reports/B-004.docx",
+      "locator": "reports/B-004.docx##/texts/3",
+      "text": "The observer recorded the appearance during routine sampling."
+    },
+    {
+      "id": "C-021",
+      "document": "DOC-B-004",
+      "kind": "passage",
+      "batch": "B-004",
+      "sample": "S-004-A",
+      "path": "reports/B-004.docx",
+      "locator": "reports/B-004.docx##/texts/4",
+      "text": "The inspection establishes appearance only."
+    },
+    {
+      "id": "C-022",
+      "document": "DOC-B-004",
+      "kind": "passage",
+      "batch": "B-004",
+      "sample": "S-004-A",
+      "path": "reports/B-004.docx",
+      "locator": "reports/B-004.docx##/tables/0",
+      "text": "| Sample   | Appearance   |\n|----------|--------------|\n| S-004-A  | mottled      |"
+    },
+    {
+      "id": "C-023",
+      "document": "DOC-B-005",
+      "kind": "passage",
+      "batch": "B-005",
+      "sample": "S-005-A",
+      "path": "reports/B-005.pdf",
+      "locator": "reports/B-005.pdf#page 1, #/texts/0",
+      "text": "Inspection report | B-005"
+    },
+    {
+      "id": "C-024",
+      "document": "DOC-B-005",
+      "kind": "passage",
+      "batch": "B-005",
+      "sample": "S-005-A",
+      "path": "reports/B-005.pdf",
+      "locator": "reports/B-005.pdf#page 1, #/texts/1",
+      "text": "Sample S-005-A was collected during RUN-005."
+    },
+    {
+      "id": "C-025",
+      "document": "DOC-B-005",
+      "kind": "passage",
+      "batch": "B-005",
+      "sample": "S-005-A",
+      "path": "reports/B-005.pdf",
+      "locator": "reports/B-005.pdf#page 1, #/texts/2",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "C-026",
+      "document": "DOC-B-005",
+      "kind": "passage",
+      "batch": "B-005",
+      "sample": "S-005-A",
+      "path": "reports/B-005.pdf",
+      "locator": "reports/B-005.pdf#page 1, #/texts/3",
+      "text": "The observer recorded the appearance during routine sampling."
+    },
+    {
+      "id": "C-027",
+      "document": "DOC-B-005",
+      "kind": "passage",
+      "batch": "B-005",
+      "sample": "S-005-A",
+      "path": "reports/B-005.pdf",
+      "locator": "reports/B-005.pdf#page 1, #/texts/4",
+      "text": "The inspection establishes appearance only."
+    },
+    {
+      "id": "C-028",
+      "document": "DOC-B-006",
+      "kind": "passage",
+      "batch": "B-006",
+      "sample": "S-006-A",
+      "path": "reports/B-006.docx",
+      "locator": "reports/B-006.docx##/texts/0",
+      "text": "Inspection report | B-006"
+    },
+    {
+      "id": "C-029",
+      "document": "DOC-B-006",
+      "kind": "passage",
+      "batch": "B-006",
+      "sample": "S-006-A",
+      "path": "reports/B-006.docx",
+      "locator": "reports/B-006.docx##/texts/1",
+      "text": "Sample S-006-A was collected during RUN-006."
+    },
+    {
+      "id": "C-030",
+      "document": "DOC-B-006",
+      "kind": "passage",
+      "batch": "B-006",
+      "sample": "S-006-A",
+      "path": "reports/B-006.docx",
+      "locator": "reports/B-006.docx##/texts/2",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "C-031",
+      "document": "DOC-B-006",
+      "kind": "passage",
+      "batch": "B-006",
+      "sample": "S-006-A",
+      "path": "reports/B-006.docx",
+      "locator": "reports/B-006.docx##/texts/3",
+      "text": "The observer recorded the appearance during routine sampling."
+    },
+    {
+      "id": "C-032",
+      "document": "DOC-B-006",
+      "kind": "passage",
+      "batch": "B-006",
+      "sample": "S-006-A",
+      "path": "reports/B-006.docx",
+      "locator": "reports/B-006.docx##/texts/4",
+      "text": "The inspection establishes appearance only."
+    },
+    {
+      "id": "C-033",
+      "document": "DOC-B-006",
+      "kind": "passage",
+      "batch": "B-006",
+      "sample": "S-006-A",
+      "path": "reports/B-006.docx",
+      "locator": "reports/B-006.docx##/tables/0",
+      "text": "| Sample   | Appearance   |\n|----------|--------------|\n| S-006-A  | intact       |"
+    },
+    {
+      "id": "NOTE-S-001-A",
+      "kind": "note",
+      "batch": "B-001",
+      "sample": "S-001-A",
+      "path": "images/S-001-A.png",
+      "locator": "catalog.json#IMG-S-001-A",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "NOTE-S-001-B",
+      "kind": "note",
+      "batch": "B-001",
+      "sample": "S-001-B",
+      "path": "images/S-001-B.png",
+      "locator": "catalog.json#IMG-S-001-B",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "NOTE-S-002-A",
+      "kind": "note",
+      "batch": "B-002",
+      "sample": "S-002-A",
+      "path": "images/S-002-A.png",
+      "locator": "catalog.json#IMG-S-002-A",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "NOTE-S-002-B",
+      "kind": "note",
+      "batch": "B-002",
+      "sample": "S-002-B",
+      "path": "images/S-002-B.png",
+      "locator": "catalog.json#IMG-S-002-B",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "NOTE-S-003-A",
+      "kind": "note",
+      "batch": "B-003",
+      "sample": "S-003-A",
+      "path": "images/S-003-A.png",
+      "locator": "catalog.json#IMG-S-003-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-003-B",
+      "kind": "note",
+      "batch": "B-003",
+      "sample": "S-003-B",
+      "path": "images/S-003-B.png",
+      "locator": "catalog.json#IMG-S-003-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-004-A",
+      "kind": "note",
+      "batch": "B-004",
+      "sample": "S-004-A",
+      "path": "images/S-004-A.png",
+      "locator": "catalog.json#IMG-S-004-A",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-004-B",
+      "kind": "note",
+      "batch": "B-004",
+      "sample": "S-004-B",
+      "path": "images/S-004-B.png",
+      "locator": "catalog.json#IMG-S-004-B",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-005-A",
+      "kind": "note",
+      "batch": "B-005",
+      "sample": "S-005-A",
+      "path": "images/S-005-A.png",
+      "locator": "catalog.json#IMG-S-005-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-005-B",
+      "kind": "note",
+      "batch": "B-005",
+      "sample": "S-005-B",
+      "path": "images/S-005-B.png",
+      "locator": "catalog.json#IMG-S-005-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-006-A",
+      "kind": "note",
+      "batch": "B-006",
+      "sample": "S-006-A",
+      "path": "images/S-006-A.png",
+      "locator": "catalog.json#IMG-S-006-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-006-B",
+      "kind": "note",
+      "batch": "B-006",
+      "sample": "S-006-B",
+      "path": "images/S-006-B.png",
+      "locator": "catalog.json#IMG-S-006-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-007-A",
+      "kind": "note",
+      "batch": "B-007",
+      "sample": "S-007-A",
+      "path": "images/S-007-A.png",
+      "locator": "catalog.json#IMG-S-007-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-007-B",
+      "kind": "note",
+      "batch": "B-007",
+      "sample": "S-007-B",
+      "path": "images/S-007-B.png",
+      "locator": "catalog.json#IMG-S-007-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-008-A",
+      "kind": "note",
+      "batch": "B-008",
+      "sample": "S-008-A",
+      "path": "images/S-008-A.png",
+      "locator": "catalog.json#IMG-S-008-A",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-008-B",
+      "kind": "note",
+      "batch": "B-008",
+      "sample": "S-008-B",
+      "path": "images/S-008-B.png",
+      "locator": "catalog.json#IMG-S-008-B",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-009-A",
+      "kind": "note",
+      "batch": "B-009",
+      "sample": "S-009-A",
+      "path": "images/S-009-A.png",
+      "locator": "catalog.json#IMG-S-009-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-009-B",
+      "kind": "note",
+      "batch": "B-009",
+      "sample": "S-009-B",
+      "path": "images/S-009-B.png",
+      "locator": "catalog.json#IMG-S-009-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-010-A",
+      "kind": "note",
+      "batch": "B-010",
+      "sample": "S-010-A",
+      "path": "images/S-010-A.png",
+      "locator": "catalog.json#IMG-S-010-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-010-B",
+      "kind": "note",
+      "batch": "B-010",
+      "sample": "S-010-B",
+      "path": "images/S-010-B.png",
+      "locator": "catalog.json#IMG-S-010-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-011-A",
+      "kind": "note",
+      "batch": "B-011",
+      "sample": "S-011-A",
+      "path": "images/S-011-A.png",
+      "locator": "catalog.json#IMG-S-011-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-011-B",
+      "kind": "note",
+      "batch": "B-011",
+      "sample": "S-011-B",
+      "path": "images/S-011-B.png",
+      "locator": "catalog.json#IMG-S-011-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-012-A",
+      "kind": "note",
+      "batch": "B-012",
+      "sample": "S-012-A",
+      "path": "images/S-012-A.png",
+      "locator": "catalog.json#IMG-S-012-A",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-012-B",
+      "kind": "note",
+      "batch": "B-012",
+      "sample": "S-012-B",
+      "path": "images/S-012-B.png",
+      "locator": "catalog.json#IMG-S-012-B",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-013-A",
+      "kind": "note",
+      "batch": "B-013",
+      "sample": "S-013-A",
+      "path": "images/S-013-A.png",
+      "locator": "catalog.json#IMG-S-013-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-013-B",
+      "kind": "note",
+      "batch": "B-013",
+      "sample": "S-013-B",
+      "path": "images/S-013-B.png",
+      "locator": "catalog.json#IMG-S-013-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-014-A",
+      "kind": "note",
+      "batch": "B-014",
+      "sample": "S-014-A",
+      "path": "images/S-014-A.png",
+      "locator": "catalog.json#IMG-S-014-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-014-B",
+      "kind": "note",
+      "batch": "B-014",
+      "sample": "S-014-B",
+      "path": "images/S-014-B.png",
+      "locator": "catalog.json#IMG-S-014-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-015-A",
+      "kind": "note",
+      "batch": "B-015",
+      "sample": "S-015-A",
+      "path": "images/S-015-A.png",
+      "locator": "catalog.json#IMG-S-015-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-015-B",
+      "kind": "note",
+      "batch": "B-015",
+      "sample": "S-015-B",
+      "path": "images/S-015-B.png",
+      "locator": "catalog.json#IMG-S-015-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-016-A",
+      "kind": "note",
+      "batch": "B-016",
+      "sample": "S-016-A",
+      "path": "images/S-016-A.png",
+      "locator": "catalog.json#IMG-S-016-A",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-016-B",
+      "kind": "note",
+      "batch": "B-016",
+      "sample": "S-016-B",
+      "path": "images/S-016-B.png",
+      "locator": "catalog.json#IMG-S-016-B",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-017-A",
+      "kind": "note",
+      "batch": "B-017",
+      "sample": "S-017-A",
+      "path": "images/S-017-A.png",
+      "locator": "catalog.json#IMG-S-017-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-017-B",
+      "kind": "note",
+      "batch": "B-017",
+      "sample": "S-017-B",
+      "path": "images/S-017-B.png",
+      "locator": "catalog.json#IMG-S-017-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-018-A",
+      "kind": "note",
+      "batch": "B-018",
+      "sample": "S-018-A",
+      "path": "images/S-018-A.png",
+      "locator": "catalog.json#IMG-S-018-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-018-B",
+      "kind": "note",
+      "batch": "B-018",
+      "sample": "S-018-B",
+      "path": "images/S-018-B.png",
+      "locator": "catalog.json#IMG-S-018-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-019-A",
+      "kind": "note",
+      "batch": "B-019",
+      "sample": "S-019-A",
+      "path": "images/S-019-A.png",
+      "locator": "catalog.json#IMG-S-019-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-019-B",
+      "kind": "note",
+      "batch": "B-019",
+      "sample": "S-019-B",
+      "path": "images/S-019-B.png",
+      "locator": "catalog.json#IMG-S-019-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-020-A",
+      "kind": "note",
+      "batch": "B-020",
+      "sample": "S-020-A",
+      "path": "images/S-020-A.png",
+      "locator": "catalog.json#IMG-S-020-A",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-020-B",
+      "kind": "note",
+      "batch": "B-020",
+      "sample": "S-020-B",
+      "path": "images/S-020-B.png",
+      "locator": "catalog.json#IMG-S-020-B",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    }
+  ],
+  "visual": [
+    {
+      "id": "IMG-S-001-A",
+      "kind": "image",
+      "batch": "B-001",
+      "sample": "S-001-A",
+      "path": "images/S-001-A.png",
+      "locator": "images/S-001-A.png",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "IMG-S-001-B",
+      "kind": "image",
+      "batch": "B-001",
+      "sample": "S-001-B",
+      "path": "images/S-001-B.png",
+      "locator": "images/S-001-B.png",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "IMG-S-002-A",
+      "kind": "image",
+      "batch": "B-002",
+      "sample": "S-002-A",
+      "path": "images/S-002-A.png",
+      "locator": "images/S-002-A.png",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "IMG-S-002-B",
+      "kind": "image",
+      "batch": "B-002",
+      "sample": "S-002-B",
+      "path": "images/S-002-B.png",
+      "locator": "images/S-002-B.png",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "IMG-S-003-A",
+      "kind": "image",
+      "batch": "B-003",
+      "sample": "S-003-A",
+      "path": "images/S-003-A.png",
+      "locator": "images/S-003-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-003-B",
+      "kind": "image",
+      "batch": "B-003",
+      "sample": "S-003-B",
+      "path": "images/S-003-B.png",
+      "locator": "images/S-003-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-004-A",
+      "kind": "image",
+      "batch": "B-004",
+      "sample": "S-004-A",
+      "path": "images/S-004-A.png",
+      "locator": "images/S-004-A.png",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "IMG-S-004-B",
+      "kind": "image",
+      "batch": "B-004",
+      "sample": "S-004-B",
+      "path": "images/S-004-B.png",
+      "locator": "images/S-004-B.png",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "IMG-S-005-A",
+      "kind": "image",
+      "batch": "B-005",
+      "sample": "S-005-A",
+      "path": "images/S-005-A.png",
+      "locator": "images/S-005-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-005-B",
+      "kind": "image",
+      "batch": "B-005",
+      "sample": "S-005-B",
+      "path": "images/S-005-B.png",
+      "locator": "images/S-005-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-006-A",
+      "kind": "image",
+      "batch": "B-006",
+      "sample": "S-006-A",
+      "path": "images/S-006-A.png",
+      "locator": "images/S-006-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-006-B",
+      "kind": "image",
+      "batch": "B-006",
+      "sample": "S-006-B",
+      "path": "images/S-006-B.png",
+      "locator": "images/S-006-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-007-A",
+      "kind": "image",
+      "batch": "B-007",
+      "sample": "S-007-A",
+      "path": "images/S-007-A.png",
+      "locator": "images/S-007-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-007-B",
+      "kind": "image",
+      "batch": "B-007",
+      "sample": "S-007-B",
+      "path": "images/S-007-B.png",
+      "locator": "images/S-007-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-008-A",
+      "kind": "image",
+      "batch": "B-008",
+      "sample": "S-008-A",
+      "path": "images/S-008-A.png",
+      "locator": "images/S-008-A.png",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "IMG-S-008-B",
+      "kind": "image",
+      "batch": "B-008",
+      "sample": "S-008-B",
+      "path": "images/S-008-B.png",
+      "locator": "images/S-008-B.png",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "IMG-S-009-A",
+      "kind": "image",
+      "batch": "B-009",
+      "sample": "S-009-A",
+      "path": "images/S-009-A.png",
+      "locator": "images/S-009-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-009-B",
+      "kind": "image",
+      "batch": "B-009",
+      "sample": "S-009-B",
+      "path": "images/S-009-B.png",
+      "locator": "images/S-009-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-010-A",
+      "kind": "image",
+      "batch": "B-010",
+      "sample": "S-010-A",
+      "path": "images/S-010-A.png",
+      "locator": "images/S-010-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-010-B",
+      "kind": "image",
+      "batch": "B-010",
+      "sample": "S-010-B",
+      "path": "images/S-010-B.png",
+      "locator": "images/S-010-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-011-A",
+      "kind": "image",
+      "batch": "B-011",
+      "sample": "S-011-A",
+      "path": "images/S-011-A.png",
+      "locator": "images/S-011-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-011-B",
+      "kind": "image",
+      "batch": "B-011",
+      "sample": "S-011-B",
+      "path": "images/S-011-B.png",
+      "locator": "images/S-011-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-012-A",
+      "kind": "image",
+      "batch": "B-012",
+      "sample": "S-012-A",
+      "path": "images/S-012-A.png",
+      "locator": "images/S-012-A.png",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "IMG-S-012-B",
+      "kind": "image",
+      "batch": "B-012",
+      "sample": "S-012-B",
+      "path": "images/S-012-B.png",
+      "locator": "images/S-012-B.png",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "IMG-S-013-A",
+      "kind": "image",
+      "batch": "B-013",
+      "sample": "S-013-A",
+      "path": "images/S-013-A.png",
+      "locator": "images/S-013-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-013-B",
+      "kind": "image",
+      "batch": "B-013",
+      "sample": "S-013-B",
+      "path": "images/S-013-B.png",
+      "locator": "images/S-013-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-014-A",
+      "kind": "image",
+      "batch": "B-014",
+      "sample": "S-014-A",
+      "path": "images/S-014-A.png",
+      "locator": "images/S-014-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-014-B",
+      "kind": "image",
+      "batch": "B-014",
+      "sample": "S-014-B",
+      "path": "images/S-014-B.png",
+      "locator": "images/S-014-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-015-A",
+      "kind": "image",
+      "batch": "B-015",
+      "sample": "S-015-A",
+      "path": "images/S-015-A.png",
+      "locator": "images/S-015-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-015-B",
+      "kind": "image",
+      "batch": "B-015",
+      "sample": "S-015-B",
+      "path": "images/S-015-B.png",
+      "locator": "images/S-015-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-016-A",
+      "kind": "image",
+      "batch": "B-016",
+      "sample": "S-016-A",
+      "path": "images/S-016-A.png",
+      "locator": "images/S-016-A.png",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "IMG-S-016-B",
+      "kind": "image",
+      "batch": "B-016",
+      "sample": "S-016-B",
+      "path": "images/S-016-B.png",
+      "locator": "images/S-016-B.png",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "IMG-S-017-A",
+      "kind": "image",
+      "batch": "B-017",
+      "sample": "S-017-A",
+      "path": "images/S-017-A.png",
+      "locator": "images/S-017-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-017-B",
+      "kind": "image",
+      "batch": "B-017",
+      "sample": "S-017-B",
+      "path": "images/S-017-B.png",
+      "locator": "images/S-017-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-018-A",
+      "kind": "image",
+      "batch": "B-018",
+      "sample": "S-018-A",
+      "path": "images/S-018-A.png",
+      "locator": "images/S-018-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-018-B",
+      "kind": "image",
+      "batch": "B-018",
+      "sample": "S-018-B",
+      "path": "images/S-018-B.png",
+      "locator": "images/S-018-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-019-A",
+      "kind": "image",
+      "batch": "B-019",
+      "sample": "S-019-A",
+      "path": "images/S-019-A.png",
+      "locator": "images/S-019-A.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-019-B",
+      "kind": "image",
+      "batch": "B-019",
+      "sample": "S-019-B",
+      "path": "images/S-019-B.png",
+      "locator": "images/S-019-B.png",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "IMG-S-020-A",
+      "kind": "image",
+      "batch": "B-020",
+      "sample": "S-020-A",
+      "path": "images/S-020-A.png",
+      "locator": "images/S-020-A.png",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "IMG-S-020-B",
+      "kind": "image",
+      "batch": "B-020",
+      "sample": "S-020-B",
+      "path": "images/S-020-B.png",
+      "locator": "images/S-020-B.png",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-001-A",
+      "kind": "note",
+      "batch": "B-001",
+      "sample": "S-001-A",
+      "path": "images/S-001-A.png",
+      "locator": "catalog.json#IMG-S-001-A",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "NOTE-S-001-B",
+      "kind": "note",
+      "batch": "B-001",
+      "sample": "S-001-B",
+      "path": "images/S-001-B.png",
+      "locator": "catalog.json#IMG-S-001-B",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "NOTE-S-002-A",
+      "kind": "note",
+      "batch": "B-002",
+      "sample": "S-002-A",
+      "path": "images/S-002-A.png",
+      "locator": "catalog.json#IMG-S-002-A",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "NOTE-S-002-B",
+      "kind": "note",
+      "batch": "B-002",
+      "sample": "S-002-B",
+      "path": "images/S-002-B.png",
+      "locator": "catalog.json#IMG-S-002-B",
+      "text": "Visual inspection recorded a chipped tablet surface."
+    },
+    {
+      "id": "NOTE-S-003-A",
+      "kind": "note",
+      "batch": "B-003",
+      "sample": "S-003-A",
+      "path": "images/S-003-A.png",
+      "locator": "catalog.json#IMG-S-003-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-003-B",
+      "kind": "note",
+      "batch": "B-003",
+      "sample": "S-003-B",
+      "path": "images/S-003-B.png",
+      "locator": "catalog.json#IMG-S-003-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-004-A",
+      "kind": "note",
+      "batch": "B-004",
+      "sample": "S-004-A",
+      "path": "images/S-004-A.png",
+      "locator": "catalog.json#IMG-S-004-A",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-004-B",
+      "kind": "note",
+      "batch": "B-004",
+      "sample": "S-004-B",
+      "path": "images/S-004-B.png",
+      "locator": "catalog.json#IMG-S-004-B",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-005-A",
+      "kind": "note",
+      "batch": "B-005",
+      "sample": "S-005-A",
+      "path": "images/S-005-A.png",
+      "locator": "catalog.json#IMG-S-005-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-005-B",
+      "kind": "note",
+      "batch": "B-005",
+      "sample": "S-005-B",
+      "path": "images/S-005-B.png",
+      "locator": "catalog.json#IMG-S-005-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-006-A",
+      "kind": "note",
+      "batch": "B-006",
+      "sample": "S-006-A",
+      "path": "images/S-006-A.png",
+      "locator": "catalog.json#IMG-S-006-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-006-B",
+      "kind": "note",
+      "batch": "B-006",
+      "sample": "S-006-B",
+      "path": "images/S-006-B.png",
+      "locator": "catalog.json#IMG-S-006-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-007-A",
+      "kind": "note",
+      "batch": "B-007",
+      "sample": "S-007-A",
+      "path": "images/S-007-A.png",
+      "locator": "catalog.json#IMG-S-007-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-007-B",
+      "kind": "note",
+      "batch": "B-007",
+      "sample": "S-007-B",
+      "path": "images/S-007-B.png",
+      "locator": "catalog.json#IMG-S-007-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-008-A",
+      "kind": "note",
+      "batch": "B-008",
+      "sample": "S-008-A",
+      "path": "images/S-008-A.png",
+      "locator": "catalog.json#IMG-S-008-A",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-008-B",
+      "kind": "note",
+      "batch": "B-008",
+      "sample": "S-008-B",
+      "path": "images/S-008-B.png",
+      "locator": "catalog.json#IMG-S-008-B",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-009-A",
+      "kind": "note",
+      "batch": "B-009",
+      "sample": "S-009-A",
+      "path": "images/S-009-A.png",
+      "locator": "catalog.json#IMG-S-009-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-009-B",
+      "kind": "note",
+      "batch": "B-009",
+      "sample": "S-009-B",
+      "path": "images/S-009-B.png",
+      "locator": "catalog.json#IMG-S-009-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-010-A",
+      "kind": "note",
+      "batch": "B-010",
+      "sample": "S-010-A",
+      "path": "images/S-010-A.png",
+      "locator": "catalog.json#IMG-S-010-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-010-B",
+      "kind": "note",
+      "batch": "B-010",
+      "sample": "S-010-B",
+      "path": "images/S-010-B.png",
+      "locator": "catalog.json#IMG-S-010-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-011-A",
+      "kind": "note",
+      "batch": "B-011",
+      "sample": "S-011-A",
+      "path": "images/S-011-A.png",
+      "locator": "catalog.json#IMG-S-011-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-011-B",
+      "kind": "note",
+      "batch": "B-011",
+      "sample": "S-011-B",
+      "path": "images/S-011-B.png",
+      "locator": "catalog.json#IMG-S-011-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-012-A",
+      "kind": "note",
+      "batch": "B-012",
+      "sample": "S-012-A",
+      "path": "images/S-012-A.png",
+      "locator": "catalog.json#IMG-S-012-A",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-012-B",
+      "kind": "note",
+      "batch": "B-012",
+      "sample": "S-012-B",
+      "path": "images/S-012-B.png",
+      "locator": "catalog.json#IMG-S-012-B",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-013-A",
+      "kind": "note",
+      "batch": "B-013",
+      "sample": "S-013-A",
+      "path": "images/S-013-A.png",
+      "locator": "catalog.json#IMG-S-013-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-013-B",
+      "kind": "note",
+      "batch": "B-013",
+      "sample": "S-013-B",
+      "path": "images/S-013-B.png",
+      "locator": "catalog.json#IMG-S-013-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-014-A",
+      "kind": "note",
+      "batch": "B-014",
+      "sample": "S-014-A",
+      "path": "images/S-014-A.png",
+      "locator": "catalog.json#IMG-S-014-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-014-B",
+      "kind": "note",
+      "batch": "B-014",
+      "sample": "S-014-B",
+      "path": "images/S-014-B.png",
+      "locator": "catalog.json#IMG-S-014-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-015-A",
+      "kind": "note",
+      "batch": "B-015",
+      "sample": "S-015-A",
+      "path": "images/S-015-A.png",
+      "locator": "catalog.json#IMG-S-015-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-015-B",
+      "kind": "note",
+      "batch": "B-015",
+      "sample": "S-015-B",
+      "path": "images/S-015-B.png",
+      "locator": "catalog.json#IMG-S-015-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-016-A",
+      "kind": "note",
+      "batch": "B-016",
+      "sample": "S-016-A",
+      "path": "images/S-016-A.png",
+      "locator": "catalog.json#IMG-S-016-A",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-016-B",
+      "kind": "note",
+      "batch": "B-016",
+      "sample": "S-016-B",
+      "path": "images/S-016-B.png",
+      "locator": "catalog.json#IMG-S-016-B",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-017-A",
+      "kind": "note",
+      "batch": "B-017",
+      "sample": "S-017-A",
+      "path": "images/S-017-A.png",
+      "locator": "catalog.json#IMG-S-017-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-017-B",
+      "kind": "note",
+      "batch": "B-017",
+      "sample": "S-017-B",
+      "path": "images/S-017-B.png",
+      "locator": "catalog.json#IMG-S-017-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-018-A",
+      "kind": "note",
+      "batch": "B-018",
+      "sample": "S-018-A",
+      "path": "images/S-018-A.png",
+      "locator": "catalog.json#IMG-S-018-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-018-B",
+      "kind": "note",
+      "batch": "B-018",
+      "sample": "S-018-B",
+      "path": "images/S-018-B.png",
+      "locator": "catalog.json#IMG-S-018-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-019-A",
+      "kind": "note",
+      "batch": "B-019",
+      "sample": "S-019-A",
+      "path": "images/S-019-A.png",
+      "locator": "catalog.json#IMG-S-019-A",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-019-B",
+      "kind": "note",
+      "batch": "B-019",
+      "sample": "S-019-B",
+      "path": "images/S-019-B.png",
+      "locator": "catalog.json#IMG-S-019-B",
+      "text": "Visual inspection recorded a intact tablet surface."
+    },
+    {
+      "id": "NOTE-S-020-A",
+      "kind": "note",
+      "batch": "B-020",
+      "sample": "S-020-A",
+      "path": "images/S-020-A.png",
+      "locator": "catalog.json#IMG-S-020-A",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    },
+    {
+      "id": "NOTE-S-020-B",
+      "kind": "note",
+      "batch": "B-020",
+      "sample": "S-020-B",
+      "path": "images/S-020-B.png",
+      "locator": "catalog.json#IMG-S-020-B",
+      "text": "Visual inspection recorded a mottled tablet surface."
+    }
+  ]
+}

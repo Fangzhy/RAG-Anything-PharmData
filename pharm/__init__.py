@@ -1,0 +1,1 @@
+"""Pharmaceutical batch investigation workspace."""
