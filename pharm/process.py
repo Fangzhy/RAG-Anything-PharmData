@@ -71,7 +71,7 @@ def controls():
 
 
 def show():
-    st.title("Process data")
+    st.title("Preprocess data")
     st.write("Follow each source row from the first schema check through correction and revalidation.")
     with st.expander("Preprocess data from raw files"):
         controls()

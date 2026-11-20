@@ -73,7 +73,7 @@ def show():
     source = st.radio("Search source",["Vector","SQL","Graph"],horizontal=True)
     folder = current_build()
     if folder is None:
-        st.info("Apply a schema and ontology on Process data to search this study.")
+        st.info("Apply a schema and ontology on Preprocess data to search this study.")
         return
     query, image, batch, weight = inputs("search","chipped tablet appearance",folder,demo_image=True)
     if st.button("Search",type="primary"):

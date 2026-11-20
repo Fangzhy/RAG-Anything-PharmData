@@ -61,7 +61,7 @@ def test_uploaded_stages_and_graph_save(tmp_path):
 
 def test_processing_contract_controls():
     page=AppTest.from_file(DATA.parent/"app.py",default_timeout=90).run()
-    page.sidebar.radio[0].set_value("Process data").run()
+    page.sidebar.radio[0].set_value("Preprocess data").run()
     page.button(key="process-demo").click().run()
     next(b for b in page.button if b.label=="Use demo schema").click().run()
     page.file_uploader(key="upload-ontology").upload("lab.ttl",TTL).run()
@@ -83,7 +83,7 @@ def test_reopen_local_study_and_use_it_on_all_retrieval_pages(tmp_path):
         content=b"id,batch,sample,test,value,unit,method,time_min,timestamp\nX1,Lot-X,S-X,Dissolution,62,%,D30,30,2026-03-01T08:00:00Z\n"
         page.file_uploader[0].upload("lims.csv",content).run()
         page.button(key="explore-load").click().run()
-        page.sidebar.radio[0].set_value("Process data").run()
+        page.sidebar.radio[0].set_value("Preprocess data").run()
         next(b for b in page.button if b.label=="Use demo schema").click().run()
         next(b for b in page.button if b.label=="Use demo ontology").click().run()
         next(b for b in page.button if b.label=="Run pipeline to apply schema and ontology").click().run()

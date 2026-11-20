@@ -24,7 +24,7 @@ def show():
     st.write("Run one investigation against two source selections. Inspect the citations to see what each selection contributes.")
     folder = current_build()
     if folder is None:
-        st.info("Apply a schema and ontology on Process data to compare this study.")
+        st.info("Apply a schema and ontology on Preprocess data to compare this study.")
         return
     request = Investigation(*inputs("compare",OPENING,folder,demo_image=True))
     left,right = st.columns(2)

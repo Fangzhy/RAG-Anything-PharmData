@@ -23,7 +23,7 @@ def show():
     st.title("Ask a question")
     folder = current_build()
     if folder is None:
-        st.info("Apply a schema and ontology on Process data to investigate this study.")
+        st.info("Apply a schema and ontology on Preprocess data to investigate this study.")
         return
     request = Investigation(*inputs("ask",OPENING,folder,demo_image=True))
     sources = st.multiselect("Retrieval sources",SOURCES,default=SOURCES)

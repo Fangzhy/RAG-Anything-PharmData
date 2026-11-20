@@ -30,7 +30,7 @@ def test_double_validation_and_quarantine(tmp_path):
 
 def test_processing_page():
     page = AppTest.from_file(DATA.parent / "app.py", default_timeout=60).run()
-    page.sidebar.radio[0].set_value("Process data").run()
+    page.sidebar.radio[0].set_value("Preprocess data").run()
     assert not page.exception
     page.selectbox[0].select("lims").run()
     page.radio[0].set_value("Quarantined").run()
