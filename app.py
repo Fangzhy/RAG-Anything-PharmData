@@ -2,13 +2,13 @@ import streamlit as st
 
 from pharm import explore
 
-st.set_page_config(page_title="Batch investigation", page_icon="🔬", layout="wide")
+st.set_page_config(page_title="Chat With Pharma Data", page_icon="🔬", layout="wide")
 from pharm.workspace import restore_workspace
 
 restore_workspace()
-st.sidebar.title("Batch investigation")
-page = st.sidebar.radio("Workspace", ["Explore raw data", "Process data", "Search evidence", "Ask a question", "Compare answers"])
-if page == "Explore raw data":
+st.sidebar.title("Chat With Pharma Data")
+page = st.sidebar.radio("Workspace", ["Explore data", "Process data", "Search evidence", "Ask a question", "Compare answers"])
+if page == "Explore data":
     explore.show()
 elif page == "Process data":
     from pharm import process

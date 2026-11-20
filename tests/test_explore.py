@@ -14,7 +14,7 @@ def test_manifest_and_inventory():
 def test_raw_page():
     page = AppTest.from_file(DATA.parent / "app.py", default_timeout=30).run()
     assert not page.exception
-    assert page.title[0].value == "Explore raw data"
+    assert page.title[0].value == "Explore data"
     assert not page.dataframe
     page.button(key="explore-demo").click().run()
     assert len(page.dataframe[0].value) == 4

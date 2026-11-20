@@ -6,7 +6,7 @@ from pharm.workspace import FEEDS, csv_content, demo_button, raw_uploader
 
 
 def show():
-    st.title("Explore raw data")
+    st.title("Explore data")
     st.write("Explore lab records, process readings, inspection images, and reports. Use the 20-batch demo or load your own files.")
     demo_button("explore")
     raw = raw_uploader("explore")
