@@ -21,13 +21,13 @@ def active():
     return BUILD / load_json(BUILD / "active.json")["build"]
 
 
-def parse_reports(catalog, folder):
+def parse_reports(catalog, folder, raw=RAW):
     from docling.datamodel.base_models import InputFormat
     from docling.document_converter import DocumentConverter, NativePdfFormatOption
     converter = DocumentConverter(format_options={InputFormat.PDF: NativePdfFormatOption()})
     chunks = []
     for report in catalog["documents"]:
-        doc = converter.convert(RAW / report["path"]).document
+        doc = converter.convert(raw / report["path"]).document
         destination = folder / "parsed" / report["id"]
         destination.parent.mkdir(exist_ok=True)
         doc.save_as_json(destination.with_suffix(".json"))

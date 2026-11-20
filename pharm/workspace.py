@@ -27,6 +27,20 @@ def invalidate():
         st.session_state.pop(key,None)
 
 
+def current_build():
+    if "study_build" in st.session_state:
+        return st.session_state.study_build
+    if st.session_state.get("raw_selection",RAW)==RAW:
+        from pharm.prepare import active
+        return active()
+    return None
+
+
+def select_build(folder):
+    invalidate()
+    st.session_state.study_build = folder
+
+
 def set_raw(path):
     invalidate()
     st.session_state.raw_selection = path

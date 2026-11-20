@@ -26,6 +26,16 @@ Try **LIMS → Quarantined** on the processing page. Of 80 LIMS records, 64 are 
 
 The local vector index stores normalized MiniLM and OpenCLIP embeddings in separate NumPy arrays. The text and visual rankings are fused by sample. The graph view uses the directed assertions and source locators from the same build that populates LightRAG's local graph. LightRAG synthesizes the evidence packet through its retrieval-bypass mode so each source selector controls the evidence shown to the model.
 
+## Work with your own files
+
+On **Explore raw data**, click **Use Demo Data** or upload UTF-8 CSV exports, inspection images, PDFs and DOCX reports. The first upload starts a separate study. Subsequent uploads append to it. For attachments, enter batch/sample IDs when known. The same selection appears on **Process data**.
+
+Expand **Preprocess data from raw files**, load the demo contracts or upload your own, edit, and save. The schema format follows `docs/feed_schemas.json`. A feed can include `"columns": {"Lot Number": "batch"}` to map an incoming header and can add required fields such as `reviewer`. The audit preserves both the source and mapped records. Measurement values, identifiers and timestamp integrity still apply to the curated SQLite tables.
+
+The ontology editor accepts app JSON, Turtle, N-Triples, and OWL serialized as RDF/XML or Turtle. It exposes named classes, named subclass relationships, and object predicates with domain and range. Use the extraction bindings table to connect lab relationships such as `hasResult` to your ontology. Download the JSON to reuse both the ontology and its mappings, or export Turtle for RDF tools. The app uses explicit mappings and does not run an OWL reasoner.
+
+**Run pipeline to apply schema and ontology** builds the validation ledger, SQLite tables, and typed graph. **Run pipeline to apply parse and embed** processes the selected reports and image pixels and adds document-derived evidence. The knowledge graph supports editing nodes and edges, validating their types, and saving a new graph for retrieval. Browser-session builds and uploaded originals are stored under the ignored `data/workspaces/` directory.
+
 ## Regenerate and test
 
 ```powershell
@@ -38,6 +48,6 @@ The generator writes the fixed synthetic investigation under `data`. The builder
 
 ## Streamlit Community Cloud
 
-Choose the repository branch containing the five pages, `app.py` as the entry point, and Python 3.12. Community Cloud installs `requirements.txt` for serving. The committed prepared study supplies SQLite, document previews, and both indexes on a fresh restart. Set the top-level `OPENROUTER_API_KEY` and `OPENROUTER_MODEL` values in Community Cloud secrets. The heavier Docling build dependencies are in `requirements-dev.txt`. [App dependencies](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies) · [Secrets management](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management)
+Choose the repository branch containing the five pages, `app.py` as the entry point, and Python 3.12. Community Cloud installs `requirements.txt` for serving. The committed prepared study supplies SQLite, document previews, and both indexes on a fresh restart. Set the top-level `OPENROUTER_API_KEY` and `OPENROUTER_MODEL` values in Community Cloud secrets. The runtime includes Docling for uploaded reports and RDFLib for ontology files. [App dependencies](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies) · [Secrets management](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management)
 
 Verify a cold start by opening B-001, tracing a corrected and a quarantined row, uploading `data/evaluation/query-chipped.png`, and running the default comparison. One local Windows comparison with both encoders peaked at approximately 1.8 GiB of process memory. Check cloud memory and latency on the deployed instance. [Community Cloud resource limits](https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app)
